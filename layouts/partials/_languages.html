@@ -1,0 +1,17 @@
+{{ if .Languages }}
+<details class="sideSection" open>
+    <summary class="sideSection__heading">
+        <h2 class="sideSection__title">Languages</h2>
+    </summary>
+    <div class="sideSection__content">
+        <ul class="language">
+            {{ range .Languages }}
+            <li class="language__item">
+                <div class="language__name">{{ .Name | safeHTML }}</div>
+                <div class="language__level">{{ .Level | safeHTML }}</div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</details>
+{{ end }}

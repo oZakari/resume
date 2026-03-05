@@ -1,0 +1,14 @@
+{{ if .Diplomas }}
+<details class="sideSection" open>
+    <summary class="sideSection__heading">
+        <h2 class="sideSection__title">Certifications</h2>
+    </summary>
+    <div class="sideSection__content">
+        <ul>
+            {{ range .Diplomas }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</details>
+{{ end }}

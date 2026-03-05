@@ -1,0 +1,19 @@
+{{ if .Education }}
+<details id="education" class="section" open>
+    <summary class="section__heading">
+        <h2 class="section__title">Education</h2>
+    </summary>
+    <div class="section__content">
+        {{ range .Education }}
+            <div class="education__item">
+                <h3 class="education__title">{{ .Course | safeHTML }}</h3>
+                <div class="education__subheader">
+                    <h4 class="education__place">{{ .Place | safeHTML }}</h4>
+                    <h4 class="education__date">{{ .Date | safeHTML }}</h4>
+                </div>
+                <div class="education__description">{{ .Details | safeHTML }}</div>
+            </div>
+        {{ end }}
+    </div>
+</details>
+{{ end }}

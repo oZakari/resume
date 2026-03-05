@@ -1,0 +1,169 @@
+BasicInfo:
+  FirstName: Zach
+  LastName: Trocinski
+  Subtitle: PLATFORM AND CLOUD ENGINEER
+  Photo: img/avatar.png
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: '<a class="contact__link" href="mailto:ztrocinski@outlook.com">ztrocinski@outlook.com</a>'
+    - Icon: fas fa-phone
+      Info: 612-990-3497
+    - Icon: fab fa-linkedin
+      Info: '<a class="contact__link" href="https://www.linkedin.com/in/zach-trocinski/" target="_blank">linkedin.com/in/zach-trocinski</a>'
+    - Icon: fab fa-github
+      Info: '<a class="contact__link" href="https://github.com/oZakari" target="_blank">github.com/oZakari</a>'
+    - Icon: fas fa-graduation-cap
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/transcript" target="_blank">Microsoft Learn Transcript</a>'
+    - Icon: fas fa-award
+      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">Credly Badges</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Georgetown, TX
+
+Profile: >
+  Platform and cloud engineer with deep expertise in Azure infrastructure, IaC (Bicep & Terraform), and enterprise-scale landing zone deployments.
+  Technical lead and escalation point for complex cloud architecture challenges, driving multi-million-dollar customer migrations and adoption of Azure Verified Modules and Azure Landing Zone frameworks.
+  Experienced in reliability engineering, CI/CD pipeline design, and community enablement across Microsoft's customer and field engineering teams.
+
+RecentHighlights:
+  - Header: Azure Landing Zones – Bicep Lead
+    Details:
+      - Served as ALZ-Bicep Lead, overseeing ~33k deployments across 560+ customers; delivered major features (multi-region, policy versioning, sovereign support), merged 150+ PRs, and resolved 120+ GitHub issues.
+      - Recognized as ALZ Lead and Cloud Adoption Framework Evangelist (3x).
+  - Header: Azure Verified Modules (AVM)
+    Details:
+      - Tech lead for ALZ Bicep and creator of Azure Verified Modules for Platform Landing Zones – Bicep.
+      - Maintained and authored AVM modules deployed ~90k times across 1,500+ subscriptions; recognized as Platinum Contributor, Community Champion, and Bicep Coach.
+  - Header: APRL Technical Lead
+    Details:
+      - Acted as technical lead and owner for APRL, with 250+ commits across v1/v2, stabilizing pipelines, standardizing metadata, and implementing secure PowerShell code signing.
+  - Header: Customer Escalation & Enablement
+    Details:
+      - Acted as an escalation point to resolve high-severity issues, unblocking millions of dollars in ACR and enabling customers to move forward on complex IaC and platform engineering challenges.
+      - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of resiliency best practices.
+  - Header: Community & Field Enablement
+    Details:
+      - Managed the 3,800+ member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views), delivered Level-Up training sessions.
+      - Mentored 25+ engineers and both senior and early-career CSAs on IaC, DevOps, CAF, and WAF best practices.
+
+Experience:
+  - Employer: Microsoft
+    Positions:
+      - Title: Cloud Solutions Architect
+        Date: Oct 2022 – Present
+        Place: Austin, TX
+        Details:
+          - Tech lead for ALZ Bicep and creator of Azure Verified Modules for Platform Landing Zones – Bicep.
+          - Acted as an escalation point to resolve high-severity issues that other CSAs could not, unblocking millions of dollars in ACR and enabling customers to move forward on complex IaC and platform engineering challenges.
+          - Enabled large-scale adoption of Azure Verified Modules (AVM) and Azure Landing Zone (ALZ) frameworks, directly supporting multi-million-dollar customer migrations.
+          - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, earning strong customer and leadership feedback while driving adoption of resiliency best practices.
+          - Served as ALZ-Bicep Lead, overseeing ~33k deployments across 560+ customers; delivered major features (multi-region, policy versioning, sovereign support), merged 150+ PRs, resolved 120+ GitHub issues, and repeatedly unblocked enterprise deployments.
+          - Maintained and authored AVM modules deployed ~90k times across 1,500+ subscriptions; recognized as Platinum Contributor, Community Champion, and Bicep Coach, mentoring 25+ engineers and enabling cross-team contributors.
+          - Acted as technical lead and owner for APRL, with 250+ commits across v1/v2, stabilizing pipelines, standardizing metadata, and implementing secure PowerShell code signing.
+          - Partnered with Microsoft product groups to influence roadmap features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and feedback, ensuring enterprise readiness.
+          - Drove community and field enablement; managed the 3,800+ member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views), delivered Level-Up training sessions, and mentored both senior and early-career CSAs on IaC, DevOps, CAF, and WAF best practices.
+        Badges: ['Bicep', 'Azure', 'IaC', 'DevOps', 'Terraform', 'PowerShell']
+      - Title: Customer Engineer
+        Date: Apr 2022 – Oct 2022
+        Place: Austin, TX
+        Details:
+          - SME for IaC (Terraform and Bicep), Azure IaaS/PaaS, Azure WAF – Reliability, and Azure DevOps and GitHub.
+          - Assisted customers with infrastructure architecture design and implementation.
+          - Delivered risk assessments for WAF – Reliability, workshop/training sessions, and custom proactive engagements.
+          - Worked with customer stakeholders as a designated support engineer to overcome obstacles and develop roadmaps to ensure that projects are successful and relationships with Microsoft are strengthened.
+          - Authored, supported, and delivered MIP for various solution areas.
+          - Awarded 'MSUS Learning Superhero' award for Q3 for leading team to unblock $8.3 million dollar Azure compete with AWS.
+          - Member of team's D&I group which promotes Microsoft's mission to reduce inequalities, increase innovation, and accelerate organizational change.
+        Badges: ['Terraform', 'Bicep', 'Azure', 'DevOps', 'Reliability']
+
+  - Employer: RBA, Inc.
+    Positions:
+      - Title: DevOps Engineer
+        Date: Jun 2018 – Apr 2021
+        Place: Wayzata, MN
+        Details:
+          - Lead DevOps consultant designing and building distributed applications in Azure.
+          - Designed and implemented CI/CD pipelines (Azure DevOps, TravisCI) for .NET, .NET Core, and Java.
+          - Built high-availability, multi-region active-active environments with release strategies like Blue-Green.
+          - Experienced with Docker, Kubernetes (AKS, ECS), ARM, and Terraform for infrastructure automation.
+          - Integrated tools such as SonarQube, OWASP ZAP, and WhiteSource for code quality and security compliance.
+          - Applied APM/monitoring solutions (Stackify, New Relic, AppDynamics, App Insights, LogicMonitor) to drive continuous improvement.
+          - Automated builds, releases, and environment creation with PowerShell.
+          - Improved agile processes, assisted developers with performance troubleshooting, and mentored client and RBA teams.
+          - Recognized with discretionary bonuses for consistently strong client and team feedback.
+        Badges: ['Azure', 'DevOps', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD']
+      - Title: Support Engineer
+        Date: Jun 2016 – Jun 2018
+        Place: Wayzata, MN
+        Details:
+          - Engineered and managed multi-region, active-active Azure environments supporting mission-critical workloads across e-commerce, financial services, agriculture, and real estate industries.
+          - Automated configuration changes with PowerShell and supported SQL environments (mirroring, replication, maintenance jobs).
+          - Troubleshot complex distributed environments, tracing issues down to code.
+          - Led migration of 20+ web apps/databases from Azure IaaS to PaaS, reducing customer costs.
+          - Configured and utilized monitoring tools (Stackify, New Relic, SCOM) across Azure solutions.
+        Badges: ['Azure', 'PowerShell', 'SQL Server', 'Monitoring']
+      - Title: IT Analyst
+        Date: Jun 2016 – Jun 2018
+        Place: Wayzata, MN
+        Details:
+          - Implemented TFS/Azure DevOps for CI/CD pipelines and upgraded internal TFS server.
+          - Managed SharePoint 2013–2016/Online, including 50+ site collections, migrations, workflows, and full farm upgrades.
+          - Applied Microsoft System Center (SCCM, SCOM, SCSM, Orchestrator) for patching, monitoring, automation, and reporting.
+          - Supported 70+ production servers across Hyper-V clusters, colocation, and on-prem.
+          - Administered Office 365 tenant (Power BI, Dynamics CRM, O365 Admin/Security Center).
+          - Delivered tier 1–3 support for 120+ employees.
+        Badges: ['SharePoint', 'System Center', 'Hyper-V', 'Office 365', 'TFS']
+
+  - Employer: Medtronic
+    Positions:
+      - Title: Information Technology Intern
+        Date: Jun 2015 – Aug 2015
+        Place: Plymouth, MN
+        Details:
+          - Monitored, logged, and escalated help desk tasks, ensuring proper prioritization.
+          - Created documentation for devices and software processes.
+          - Collaborated with tier III help desk, business analysts, and network engineers on projects.
+        Badges: ['IT Support', 'Documentation']
+
+Education:
+  - Course: "BSc Finance | Minor: Information Systems"
+    Place: University of Wisconsin - La Crosse
+    Date: Graduated with highest honors, top 10% of class
+
+Skills:
+  - Family: Cloud & IaC
+    Items:
+      - Microsoft Azure
+      - Bicep
+      - HashiCorp Terraform
+      - ARM Templates
+  - Family: Languages & Scripting
+    Items:
+      - PowerShell
+      - Bash
+      - C# / .NET
+      - TypeScript / JavaScript
+  - Family: Platforms & Tools
+    Items:
+      - Azure DevOps
+      - GitHub / GitHub Actions
+      - Docker / Kubernetes (AKS)
+      - Azure Landing Zones
+  - Family: Architecture & Practices
+    Items:
+      - Cloud Landing Zones
+      - Well-Architected Framework
+      - CI/CD Pipeline Design
+      - Reliability Engineering
+
+Diplomas:
+  - Microsoft Certified Azure Solutions Architect Expert
+  - Microsoft Certified Azure DevOps Engineer Expert
+  - Microsoft Certified Azure Security Engineer Associate
+  - Microsoft Certified Azure Network Engineer Associate
+  - Microsoft Certified Azure Administrator Associate
+  - Sitecore 9.0 Certified Platform Associate Developer
+
+Interests:
+  - Cloud infrastructure and open-source contributions
+  - Mentoring engineers and community enablement
+  - Technology meetups and conferences

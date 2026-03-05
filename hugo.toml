@@ -1,0 +1,25 @@
+baseURL = 'https://cv.ztrocinski.co.us'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+enableRobotsTXT = true
+enableEmoji = true
+title = 'Zach Trocinski – Resume'
+theme = 'almeida-cv'
+disableKinds = ['page', 'section', 'taxonomy', 'term', 'RSS', 'sitemap']
+
+[params]
+  enableMetaTags = true
+  colorLight = '#fff'
+  colorDark = '#4a5568'
+  colorPageBackground = '#e2e8f0'
+  colorPrimary = '#2b6cb0'
+  colorSecondary = '#a0aec0'
+  colorIconPrimary = '#fff'
+  colorIconBackground = '#2b6cb0'
+  colorRightColumnBackground = '#f7fafc'
+  colorRightColumnHeadingText = '#2d3748'
+  colorRightColumnBodyText = '#4a5568'
+  colorRightColumnIconPrimary = '#fff'
+  colorRightColumnIconBackground = '#2b6cb0'
+  pages = 3
+  swapColumns = false

@@ -1,0 +1,500 @@
+body {
+  font-size: 1.3rem;
+}
+
+.avatar {
+  overflow: visible;
+  margin-top: 3rem;
+
+  &__container {
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__img {
+    object-fit: cover;
+    object-position: center top;
+  }
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+  color: $color-primary;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  width: 100rem;
+  position: relative;
+  left: auto;
+  transform: none;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__left {
+    width: 70rem;
+    padding: 2rem 2.5rem;
+  }
+
+  &__right {
+    width: 30rem;
+    padding: 1.5rem 2rem;  }
+}
+
+.highlights {
+  &__item {
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+  }
+
+  &__detail {
+    list-style-type: disc;
+  }
+
+  ul {
+    padding-left: 2rem;
+  }
+
+  a {
+    color: $color-primary;
+  }
+}
+
+[data-theme="dark"] .highlights a {
+  color: #90cdf4;
+}
+
+// Replace double-line title decoration with background/shadow
+.section {
+  &__heading {
+    background-color: rgba($color-secondary, 0.12);
+    padding: 0.3rem 0.8rem;
+    margin-bottom: 1rem;
+    width: unset;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      background-color: rgba($color-primary, 0.18);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &__title {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+// Make sideSection headings match left-column section style
+.sideSection {
+  &__heading {
+    text-align: left;
+    background-color: rgba($color-secondary, 0.12);
+    padding: 0.3rem 0.8rem;
+    width: unset;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      background-color: rgba($color-primary, 0.18);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &__title {
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      content: none;
+    }
+  }
+}
+
+// Collapsible sections
+details.section,
+details.sideSection {
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: '\25BC';
+      display: inline-block;
+      font-size: 0.7em;
+      margin-right: 0.5rem;
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+  }
+
+  &:not([open]) > summary::before {
+    transform: rotate(-90deg);
+  }
+}
+
+@media print {
+  details.section,
+  details.sideSection {
+    > summary::before {
+      display: none;
+    }
+  }
+}
+
+.print-btn,
+.dark-toggle {
+  position: fixed;
+  right: 2rem;
+  width: 10rem;
+  padding: 0.8rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: $color-primary;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+
+  &:hover {
+    background-color: darken($color-primary, 10%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.print-btn {
+  bottom: 2rem;
+}
+
+.dark-toggle {
+  bottom: 6rem;
+}
+
+@media print {
+  .print-btn,
+  .dark-toggle {
+    display: none;
+  }
+}
+
+.interests {
+  column-count: 1;
+  text-align: left;
+
+  &__item:nth-child(n+4) {
+    text-align: left;
+  }
+}
+
+.content__left::after {
+  display: none;
+}
+
+.education {
+  &__item {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    color: $color-dark;
+  }
+
+  &__subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+  }
+
+  &__place {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: $color-dark;
+  }
+
+  &__date {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $color-secondary;
+  }
+
+  &__description {
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+  }
+}
+
+.footer {
+  width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: darken($color-light, 40%);
+  font-size: 1.2rem;
+  border-top: 1px solid darken($color-light, 15%);
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+// ── Dark-mode ──────────────────────────────────────────────
+:root {
+  --cv-light:             #{$color-light};
+  --cv-dark:              #{$color-dark};
+  --cv-page-bg:           #{$color-page-background};
+  --cv-primary:           #{$color-primary};
+  --cv-secondary:         #{$color-secondary};
+  --cv-icon-fg:           #{$color-icon-primary};
+  --cv-icon-bg:           #{$color-icon-background};
+  --cv-right-bg:          #{$color-right-col-background};
+  --cv-right-heading:     #{$color-right-col-heading-text};
+  --cv-right-body:        #{$color-right-col-body-text};
+  --cv-right-icon-fg:     #{$color-right-col-icon-primary};
+  --cv-right-icon-bg:     #{$color-right-col-icon-background};
+  --cv-shadow-alpha:      0.1;
+  --cv-selection-bg:      #{darken(rgba($color-primary, 0.6), 10%)};
+}
+
+[data-theme="dark"] {
+  --cv-light:             #1e293b;
+  --cv-dark:              #e2e8f0;
+  --cv-page-bg:           #0f172a;
+  --cv-primary:           #63b3ed;
+  --cv-secondary:         #94a3b8;
+  --cv-icon-fg:           #fff;
+  --cv-icon-bg:           #63b3ed;
+  --cv-right-bg:          #1a2332;
+  --cv-right-heading:     #e2e8f0;
+  --cv-right-body:        #cbd5e0;
+  --cv-right-icon-fg:     #fff;
+  --cv-right-icon-bg:     #63b3ed;
+  --cv-shadow-alpha:      0.3;
+  --cv-selection-bg:      rgba(99, 179, 237, 0.45);
+}
+
+// --- Apply CSS custom properties everywhere ---
+
+html {
+  background-color: var(--cv-page-bg);
+}
+
+body {
+  color: var(--cv-dark);
+}
+
+::selection {
+  color: var(--cv-light);
+  background-color: var(--cv-selection-bg);
+}
+
+.content {
+  background-color: var(--cv-light);
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, var(--cv-shadow-alpha));
+
+  &__right {
+    background-color: var(--cv-right-bg);
+    color: var(--cv-right-body);
+    box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, var(--cv-shadow-alpha));
+  }
+}
+
+.mainHeading {
+  color: var(--cv-secondary);
+
+  span {
+    color: var(--cv-primary);
+  }
+}
+
+.subtitle {
+  color: var(--cv-primary);
+}
+
+.section {
+  &__heading {
+    background-color: rgba(var(--cv-secondary), 0.12);
+  }
+
+  &__title {
+    color: var(--cv-dark);
+  }
+}
+
+// Re-apply section heading colors via custom properties
+[data-theme="dark"] {
+  .section__heading {
+    background-color: rgba(148, 163, 184, 0.12);
+
+    &:hover {
+      background-color: rgba(99, 179, 237, 0.18);
+    }
+  }
+
+  .sideSection__heading {
+    color: var(--cv-right-heading);
+    background-color: rgba(148, 163, 184, 0.12);
+
+    &:hover {
+      background-color: rgba(99, 179, 237, 0.18);
+    }
+  }
+}
+
+.sideSection__heading {
+  color: var(--cv-right-heading);
+}
+
+// Experience
+.experience {
+  &__company,
+  &__position {
+    color: var(--cv-dark);
+  }
+
+  &__date,
+  &__place {
+    color: var(--cv-secondary);
+  }
+
+  &__place::before {
+    color: var(--cv-icon-bg);
+  }
+
+  &__badge {
+    background-color: var(--cv-icon-bg);
+    color: var(--cv-icon-fg);
+  }
+
+  &__item::before {
+    background: linear-gradient(var(--cv-page-bg), rgba(255, 255, 255, 0));
+  }
+}
+
+// Education
+.education {
+  &__title {
+    color: var(--cv-dark);
+  }
+
+  &__place {
+    color: var(--cv-dark);
+  }
+
+  &__date {
+    color: var(--cv-secondary);
+  }
+}
+
+// Contact
+.contact {
+  &__item {
+    font-size: 1.2rem;
+
+    & > i {
+      background-color: var(--cv-right-icon-bg);
+      color: var(--cv-right-icon-fg);
+    }
+  }
+
+  &__link {
+    color: var(--cv-right-body);
+  }
+}
+
+// Skills
+.skills__group {
+  span:hover ~ li {
+    background-color: var(--cv-primary);
+    color: var(--cv-light);
+  }
+
+  li:hover {
+    background-color: var(--cv-primary);
+    color: var(--cv-light);
+  }
+}
+
+// Footer
+.footer {
+  color: var(--cv-secondary);
+  border-top-color: rgba(0, 0, 0, var(--cv-shadow-alpha));
+
+  a {
+    color: var(--cv-primary);
+  }
+}
+
+// Print & toggle buttons
+.print-btn,
+.dark-toggle {
+  background-color: var(--cv-primary);
+  color: #fff;
+
+  &:hover {
+    filter: brightness(0.85);
+  }
+}
+
+// (dark-toggle positioning is defined above alongside .print-btn)
+
+// Smooth transition for all colour changes
+html,
+body,
+.content,
+.content__right,
+.mainHeading,
+.mainHeading span,
+.subtitle,
+.section__heading,
+.section__title,
+.sideSection__heading,
+.experience__company,
+.experience__position,
+.experience__date,
+.experience__place,
+.experience__badge,
+.education__title,
+.education__place,
+.education__date,
+.contact__item > i,
+.contact__link,
+.footer,
+.footer a,
+.print-btn,
+.dark-toggle {
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}

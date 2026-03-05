@@ -1,0 +1,21 @@
+{{ if .RecentHighlights }}
+<details id="highlights" class="section" open>
+    <summary class="section__heading">
+        <h2 class="section__title">Highlights</h2>
+    </summary>
+    <div class="section__content">
+        <div class="highlights">
+            {{ range .RecentHighlights }}
+            <div class="highlights__item">
+                <h3 class="highlights__header">{{ .Header | safeHTML }}</h3>
+                <ul>
+                    {{ range .Details }}
+                    <li class="highlights__detail">{{ . | safeHTML }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</details>
+{{ end }}

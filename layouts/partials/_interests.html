@@ -1,0 +1,14 @@
+{{ if .Interests }}
+<details class="sideSection" open>
+    <summary class="sideSection__heading">
+        <h2 class="sideSection__title">Interests</h2>
+    </summary>
+    <div class="sideSection__content">
+        <ul class="interests">
+            {{ range .Interests }}
+            <li class="interests__item">{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</details>
+{{ end }}

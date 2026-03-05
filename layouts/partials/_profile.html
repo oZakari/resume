@@ -1,0 +1,10 @@
+{{ if .Profile }}
+<details id="profile" class="section" open>
+    <summary class="section__heading">
+        <h2 class="section__title">Profile</h2>
+    </summary>
+    <div class="section__content">
+        <p>{{ .Profile | safeHTML | emojify }}</p>
+    </div>
+</details>
+{{ end }}
