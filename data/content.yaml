@@ -2,7 +2,7 @@ BasicInfo:
   FirstName: Zach
   LastName: Trocinski
   Subtitle: CLOUD PLATFORM AND SOFTWARE ENGINEER
-  Photo: img/avatar.png
+  Photo: img/profilepic.jpg
   Contacts:
     - Icon: fas fa-envelope
       Info: '<a class="contact__link" href="mailto:ztrocinski@outlook.com">ztrocinski@outlook.com</a>'
