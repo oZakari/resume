@@ -1,0 +1,37 @@
+{{ $main := resources.Get "scss/main.scss" }}
+{{ $contentData := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
+{{ $extraVars := printf "$print-header-name: '%s %s' !default;\n$print-header-subtitle: '%s' !default;\n" (upper $contentData.BasicInfo.FirstName) (upper $contentData.BasicInfo.LastName) $contentData.BasicInfo.Subtitle }}
+{{ $combined := printf "%s\n%s" $extraVars $main.Content | resources.FromString "scss/main_combined.scss" }}
+{{ $style := $combined | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
+{{ $data := .Scratch.Get "data" }}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen,print" />
+
+    {{ if .Site.Params.enableMetaTags }}
+        <meta property="og:title" content="{{ .Site.Title }}" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:type" content="website" />
+        {{ with $data.BasicInfo.Photo }}
+            <meta property="og:image" content="{{ . | absURL }}" />
+        {{ end }}
+        {{ with $data.Profile | htmlUnescape | emojify | truncate 200 }}
+            <meta property="og:description" content="{{ . }}" />
+            <meta name="description" content="{{ . }}" />
+        {{ end }}
+    {{ end }}
+
+    {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+        {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+</head>

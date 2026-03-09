@@ -653,6 +653,43 @@ body,
 
 // ── Print refinements ──────────────────────────────────────
 @media print {
+  @page {
+    margin: 3rem 1.5rem 1rem 1.5rem;
+
+    @top-left {
+      content: $print-header-name;
+      font-family: Inter, Oswald, sans-serif;
+      font-size: 10pt;
+      font-weight: 700;
+      color: $color-primary;
+      vertical-align: bottom;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid $color-primary;
+    }
+
+    @top-right {
+      content: $print-header-subtitle;
+      font-family: Inter, Oswald, sans-serif;
+      font-size: 10pt;
+      font-weight: 400;
+      color: $color-secondary;
+      letter-spacing: 0.1rem;
+      vertical-align: bottom;
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid $color-primary;
+    }
+  }
+
+  @page :first {
+    margin-top: 0;
+    @top-left { content: none; }
+    @top-right { content: none; }
+  }
+
+  .print-header {
+    display: none;
+  }
+
   body {
     font-size: 1.1rem;
     -webkit-print-color-adjust: exact;
@@ -663,6 +700,23 @@ body,
     width: 100%;
     box-shadow: none;
     margin: 0;
+    position: relative;
+    overflow: visible;
+    height: auto;
+
+    &__left {
+      width: 100%;
+      height: auto;
+      float: none;
+    }
+
+    &__right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: auto;
+      box-shadow: none;
+    }
   }
 
   .content__left {
@@ -674,15 +728,55 @@ body,
     box-shadow: none;
   }
 
-  .experience__job:hover {
-    transform: none;
+  // Page-1 left-column content: keep clear of the right column
+  .mainHeading,
+  .subtitle,
+  #profile,
+  #highlights {
+    margin-right: 32rem;
+  }
+
+  // Experience & beyond: use full width
+  #experience,
+  #education,
+  #references {
+    margin-right: 0;
   }
 
   .section__heading,
   .sideSection__heading {
+    break-after: avoid;
     border-left-color: $color-primary;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  .experience__item,
+  .education__item {
+    break-inside: avoid;
+  }
+
+  .experience__item:not(:first-child) {
+    padding-top: 0.5rem;
+  }
+
+  .experience__job {
+    margin-bottom: 1rem;
+  }
+
+  .experience__job:hover {
+    transform: none;
+  }
+
+  .experience__place {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #aaa !important;
+
+    &::before {
+      color: #ccc !important;
+      font-size: 1.1rem;
+    }
   }
 
   .experience__badge {
