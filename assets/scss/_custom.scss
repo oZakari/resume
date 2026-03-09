@@ -697,12 +697,10 @@ body,
   }
 
   .content {
-    width: 100%;
-    box-shadow: none;
-    margin: 0;
     position: relative;
     overflow: visible;
     height: auto;
+    box-shadow: none !important;
 
     &__left {
       width: 100%;
@@ -715,17 +713,8 @@ body,
       top: 0;
       right: 0;
       height: auto;
-      box-shadow: none;
+      box-shadow: none !important;
     }
-  }
-
-  .content__left {
-    width: 68%;
-  }
-
-  .content__right {
-    width: 32%;
-    box-shadow: none;
   }
 
   // Page-1 left-column content: keep clear of the right column
