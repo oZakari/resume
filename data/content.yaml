@@ -20,10 +20,10 @@ BasicInfo:
       Info: Georgetown, TX
 
 Profile: >
-  Cloud Platform and Software Engineer with 10+ years of experience designing, building, and shipping production-grade infrastructure-as-code modules, developer tooling, and distributed cloud systems at scale.
-  Creator and maintainer of 14 Azure Verified Modules with hundreds of thousands of deployments across tens of thousands of customers.
+  Cloud Platform and Software Engineer with 10+ years of experience designing, building, and shipping production-grade software, open-source frameworks, developer tooling, and distributed cloud systems at scale.
+  Creator and maintainer of open-source modules adopted across hundreds of thousands of deployments and tens of thousands of customers.
   Deep expertise in open-source software development (Bicep, Terraform, PowerShell), CI/CD pipeline engineering, and enterprise cloud architecture.
-  Proven technical lead driving complex software delivery, reliability engineering, and developer enablement across Microsoft's engineering and customer teams.
+  Proven technical lead driving complex software delivery, open-source collaboration, and developer enablement across Microsoft's engineering and product teams.
 
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
@@ -53,14 +53,13 @@ Experience:
         Date: Oct 2022 – Present
         Place: Austin, TX
         Details:
-          - Built and led the ALZ-Bicep framework, architecting a modular platform of 19 Azure Verified Modules powering tens of thousands of enterprise deployments across hundreds of customers, delivering end-to-end customization, multi-region and availability zone support, Azure Deployment Stacks integration, decoupled policy lifecycle management, and sovereign cloud compatibility.
-          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), contributing 250+ commits across v1/v2 — stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure PowerShell code signing.
-          - Built and own 14 Azure Verified Modules for Platform Landing Zones (Bicep), adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach.
-
-          - Served as the primary escalation point for high-severity infrastructure and code issues, unblocking millions of dollars in customer revenue by resolving complex IaC and platform engineering challenges.
+          - Built and led the ALZ-Bicep framework from the ground up, designing and shipping a modular platform of 19 open-source modules powering tens of thousands of enterprise deployments — owning architecture, code reviews, release engineering, and cross-team collaboration.
+          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), contributing 250+ commits across v1/v2 — stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure code signing.
+          - Designed and built 14 Azure Verified Modules adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
           - Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions, ensuring enterprise readiness.
-          - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of resiliency patterns and earning consistently strong customer and leadership feedback.
-          - Drove developer community enablement; managed the 3,800+ member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views), delivered training sessions, and mentored 25+ engineers on IaC, DevOps, and software best practices.
+          - Served as the primary escalation point for high-severity code and infrastructure issues, unblocking millions of dollars in customer revenue by resolving complex IaC and platform engineering challenges.
+          - Led Well-Architected Reliability Assessments and remediation engagements, driving adoption of resiliency patterns and earning consistently strong customer and leadership feedback.
+          - Drove developer community enablement; managed a 3,800+ member Teams channel, presented at community calls (90–120 attendees, 2,500+ views), delivered training sessions, and mentored 25+ engineers on software engineering and DevOps best practices.
         Badges: ['Bicep', 'Azure', 'IaC', 'DevOps', 'Terraform', 'PowerShell', 'TypeScript', 'Open Source']
       - Title: Customer Engineer
         Date: Apr 2022 – Oct 2022
@@ -80,8 +79,8 @@ Experience:
         Date: Jun 2018 – Apr 2021
         Place: Wayzata, MN
         Details:
-          - Led consulting engagements designing and building distributed applications and cloud-native services in Azure.
-          - Engineered CI/CD pipelines (Azure DevOps, TravisCI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
+          - Led consulting engagements designing and building distributed applications and cloud-native services.
+          - Engineered CI/CD pipelines (Azure DevOps, Travis CI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
           - Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
           - Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS, ECS); automated infrastructure provisioning with ARM and Terraform.
           - Integrated static analysis (SonarQube), dynamic security scanning (OWASP ZAP), and dependency auditing (WhiteSource) into CI/CD pipelines.
@@ -144,8 +143,9 @@ Skills:
       - Azure DevOps
       - Git / Open-Source Development
       - Docker / Kubernetes (AKS)
-  - Family: Test Automation & Quality
+  - Family: Test Automation, Quality, and AI
     Items:
+      - SpecKit / Squad
       - SonarQube
       - OWASP ZAP
       - Postman
