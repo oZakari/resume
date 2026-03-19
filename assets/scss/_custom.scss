@@ -718,19 +718,21 @@ body,
   .content {
     position: relative;
     overflow: visible;
+    width: 100%;
     height: auto;
     box-shadow: none !important;
 
     &__left {
-      width: 100%;
+      float: left;
+      width: 65%;
       height: auto;
-      float: none;
     }
 
     &__right {
-      position: absolute;
-      top: 0;
-      right: 0;
+      position: relative;
+      float: right;
+      width: 35%;
+      right: auto;
       height: auto;
       box-shadow: none !important;
     }
@@ -741,7 +743,7 @@ body,
   .subtitle,
   #profile,
   #highlights {
-    margin-right: 32rem;
+    margin-right: 0;
   }
 
   // Experience & beyond: use full width
