@@ -97,6 +97,26 @@ body {
       content: none;
     }
   }
+}
+
+@media print {
+  .content {
+    width: 100%;
+    overflow: visible;
+
+    &__left {
+      float: left;
+      width: 65%;
+    }
+
+    &__right {
+      position: relative;
+      float: right;
+      width: 35%;
+      right: auto;
+    }
+  }
+}
 
   // Profile paragraph refinement
   &__content > p {
