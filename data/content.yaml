@@ -15,7 +15,7 @@ BasicInfo:
     - Icon: fas fa-graduation-cap
       Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/" target="_blank">learn.microsoft.com/en-us/users/ozakari</a>'
     - Icon: fas fa-award
-      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">Credly Badges</a>'
+      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">www.credly.com/users/zach-trocinski"</a>'
     - Icon: fas fa-map-marker-alt
       Info: Georgetown, TX
 
