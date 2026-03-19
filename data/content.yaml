@@ -132,27 +132,37 @@ Skills:
   - Family: Languages & Frameworks
     Items:
       - PowerShell
-      - C# / .NET
-      - TypeScript / JavaScript
       - Bash / Shell
   - Family: Cloud & IaC
     Items:
       - Microsoft Azure
       - Bicep
       - HashiCorp Terraform
-      - ARM Templates
   - Family: Platforms & DevOps
     Items:
       - GitHub / GitHub Actions
       - Azure DevOps
-      - Docker / Kubernetes (AKS)
       - Git / Open-Source Development
+      - Docker / Kubernetes (AKS)
+  - Family: Test Automation & Quality
+    Items:
+      - SonarQube
+      - OWASP ZAP
+      - Postman
+      - JMeter / BlazeMeter
+  - Family: Observability
+    Items:
+      - Prometheus / Grafana
+      - App Dynamics
+      - New Relic
   - Family: Architecture & Practices
     Items:
       - CI/CD Pipeline Design
       - Distributed Systems
-      - Reliability Engineering
+      - Site Reliability Engineering
       - Well-Architected Framework
+      - Cloud Adoption Framework
+
 
 Certifications:
   - Microsoft Certified Azure Solutions Architect Expert
@@ -160,7 +170,7 @@ Certifications:
   - Microsoft Certified Azure Security Engineer Associate
   - Microsoft Certified Azure Network Engineer Associate
   - Microsoft Certified Azure Administrator Associate
-  - HashiCrop Certified Terraform Associate (003)
+  - HashiCorp Certified Terraform Associate (003)
   - Sitecore 9.0 Certified Platform Associate Developer
 
 
