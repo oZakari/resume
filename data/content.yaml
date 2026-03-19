@@ -13,7 +13,7 @@ BasicInfo:
     - Icon: fab fa-github
       Info: '<a class="contact__link" href="https://github.com/oZakari" target="_blank">github.com/oZakari</a>'
     - Icon: fas fa-graduation-cap
-      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/transcript" target="_blank">Microsoft Learn Transcript</a>'
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/" target="_blank">learn.microsoft.com/en-us/users/ozakari</a>'
     - Icon: fas fa-award
       Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">Credly Badges</a>'
     - Icon: fas fa-map-marker-alt
