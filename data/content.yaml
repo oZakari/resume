@@ -28,7 +28,7 @@ Profile: >
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
     Details:
-      - Served as ALZ-Bicep Lead, overseeing tens of thousands of deployments across hundreds of customers; delivered major features (multi-region, policy versioning, sovereign support), merged 150+ PRs, and resolved 120+ GitHub issues.
+      - Built and led the ALZ-Bicep framework from the ground up, architecting a modular platform of 19 Azure Verified Modules that powers tens of thousands of enterprise deployments across hundreds of customers, delivering end-to-end customization, Azure Deployment Stacks integration, decoupled policy management, and modern Bicep parameter file support.
       - Recognized as ALZ Lead and Cloud Adoption Framework Evangelist (3x).
   - Header: Azure Verified Modules (AVM)
     Details:
@@ -53,7 +53,7 @@ Experience:
         Date: Oct 2022 – Present
         Place: Austin, TX
         Details:
-          - Served as ALZ-Bicep Lead, overseeing tens of thousands of deployments across hundreds of customers; designed and shipped major features (multi-region support, policy versioning, sovereign cloud compatibility), merged 150+ PRs, and resolved 120+ GitHub issues.
+          - Built and led the ALZ-Bicep framework, architecting a modular platform of 19 Azure Verified Modules powering tens of thousands of enterprise deployments across hundreds of customers, delivering end-to-end customization, multi-region and availability zone support, Azure Deployment Stacks integration, decoupled policy lifecycle management, and sovereign cloud compatibility.
           - Led architecture and development of the Azure Proactive Resiliency Library (APRL), contributing 250+ commits across v1/v2 — stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure PowerShell code signing.
           - Built and own 14 Azure Verified Modules for Platform Landing Zones (Bicep), adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach.
 
