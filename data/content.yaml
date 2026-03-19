@@ -54,7 +54,7 @@ Experience:
         Place: Austin, TX
         Details:
           - Built and led the ALZ-Bicep framework from the ground up, designing and shipping a modular platform of 19 open-source modules powering tens of thousands of enterprise deployments — owning architecture, code reviews, release engineering, and cross-team collaboration.
-          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), contributing 250+ commits across v1/v2 — stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure code signing.
+          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure code signing.
           - Designed and built 14 Azure Verified Modules adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
           - Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions, ensuring enterprise readiness.
           - Served as the primary escalation point for high-severity code and infrastructure issues, unblocking millions of dollars in customer revenue by resolving complex IaC and platform engineering challenges.
