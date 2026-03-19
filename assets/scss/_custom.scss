@@ -97,6 +97,12 @@ body {
       content: none;
     }
   }
+
+  // Profile paragraph refinement
+  &__content > p {
+    line-height: 1.8;
+    font-size: 1.25rem;
+  }
 }
 
 @media print {
@@ -115,13 +121,6 @@ body {
       width: 35%;
       right: auto;
     }
-  }
-}
-
-  // Profile paragraph refinement
-  &__content > p {
-    line-height: 1.8;
-    font-size: 1.25rem;
   }
 }
 
@@ -760,7 +759,10 @@ body,
     print-color-adjust: exact;
   }
 
-  .experience__item,
+  .experience__item {
+    break-inside: auto;
+  }
+
   .education__item {
     break-inside: avoid;
   }
