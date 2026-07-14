@@ -1,0 +1,191 @@
+BasicInfo:
+  FirstName: Zach
+  LastName: Trocinski
+  Subtitle: SENIOR SITE RELIABILITY ENGINEER
+  Photo: img/profilepic.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: '<a class="contact__link" href="mailto:ztrocinski@outlook.com">ztrocinski@outlook.com</a>'
+    - Icon: fas fa-phone
+      Info: 612-990-3497
+    - Icon: fab fa-linkedin
+      Info: '<a class="contact__link" href="https://www.linkedin.com/in/zach-trocinski/" target="_blank">linkedin.com/in/zach-trocinski</a>'
+    - Icon: fab fa-github
+      Info: '<a class="contact__link" href="https://github.com/oZakari" target="_blank">github.com/oZakari</a>'
+    - Icon: fas fa-graduation-cap
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/" target="_blank">learn.microsoft.com/en-us/users/ozakari</a>'
+    - Icon: fas fa-award
+      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">www.credly.com/users/zach-trocinski</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Georgetown, TX
+
+Profile: >
+  Site Reliability Engineer with 10+ years of experience improving the resiliency, availability, and operational
+  excellence of large-scale Azure production environments. Led dozens of Well-Architected Reliability Assessments
+  (WARAs) and remediation engagements for enterprise customers, translating findings into scalable, automated
+  alerting and disaster recovery frameworks. Built threat models, disaster recovery plans, and zone-redundant
+  architecture patterns adopted as reference implementations. Skilled in incident prevention, monitoring, and
+  driving measurable reliability improvements across mission-critical workloads.
+
+RecentHighlights:
+  - Header: Well-Architected Reliability Assessments
+    Details:
+      - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
+        across insurance, energy, and public-sector organizations, driving resiliency best-practice adoption.
+      - Reverse-shadowed and mentored teammates on WARA delivery, improving consistency and quality of assessments.
+  - Header: Resiliency & Disaster Recovery Engineering
+    Details:
+      - Delivered a WARA remediation engagement implementing service health alerts at scale and network-specific
+        metric alerts using the AMBA (Azure Monitor Baseline Alerts) framework.
+      - Built a complete threat model and a Disaster Recovery Plan for a monitoring framework, receiving formal
+        risk-program and BCDR team approval.
+  - Header: Secure & Resilient Architecture
+    Details:
+      - Led design of a resilient AKS Secure Baseline architecture, incorporating etcd encryption via KMS v2, private
+        Key Vault integration, and multi-cluster observability patterns.
+      - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling
+        zone-redundant infrastructure deployment without custom configuration.
+  - Header: Monitoring & Operational Excellence
+    Details:
+      - Served as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA and
+        building custom queries/reports to support product health reviews.
+      - Raised OpenSSF Scorecard security rating (7.5 → 8.1) for a monitoring framework via Dependabot, CodeQL, SAST
+        scanning, and hardened CI/CD runners.
+  - Header: Governance & Risk Reduction
+    Details:
+      - Partnered with the RBAC product team to validate governance behavior within Deployment Stacks, closing a
+        gap that could have led to over-privileged access at enterprise scale.
+
+Experience:
+  - Employer: Microsoft
+    Positions:
+      - Title: Cloud Solution Architect – Tech Success (Apps and AI)
+        Date: Oct 2025 – Present
+        Place: Austin, TX
+        Details:
+          - Serve as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA and
+            building a Disaster Recovery Plan approved by the BCDR team.
+          - Built a complete threat model, including a custom repository backup solution, achieving formal risk
+            program approval for a monitoring framework.
+          - Led design of a resilient AKS Secure Baseline architecture, incorporating etcd encryption via KMS v2,
+            private Key Vault integration, and multi-cluster observability patterns.
+          - Raised OpenSSF Scorecard security rating (7.5 → 8.1) for a monitoring framework by implementing
+            Dependabot, CodeQL, SAST scanning, and hardened CI/CD runners.
+        Badges: ['Monitoring', 'Disaster Recovery', 'AKS', 'Resiliency', 'Azure']
+      - Title: Cloud Solution Architect – Tech Strategy (Infra)
+        Date: Oct 2022 – Oct 2025
+        Place: Austin, TX
+        Details:
+          - Led multiple Well-Architected Reliability Assessments (WARAs) for enterprise customers across insurance,
+            energy, and public-sector organizations, identifying high-impact resiliency gaps and driving remediation.
+          - Delivered a WARA remediation engagement implementing service health alerts at scale and network-specific
+            metric alerts using the AMBA framework.
+          - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling
+            customers to deploy zone-redundant infrastructure without custom configuration.
+          - Partnered with the RBAC product team to validate governance behavior within Deployment Stacks, closing a
+            gap that could have caused over-privileged access at enterprise scale.
+          - Reverse-shadowed and mentored teammates on WARA delivery, improving consistency and quality of
+            reliability assessments delivered to customers.
+        Badges: ['Well-Architected Framework', 'Reliability', 'Governance', 'Azure', 'Resiliency']
+      - Title: Customer Engineer (Apps and Infra)
+        Date: Apr 2021 – Oct 2022
+        Place: Austin, TX
+        Details:
+          - Subject matter expert for Azure WAF – Reliability, IaC (Bicep and Terraform), and CI/CD with Azure DevOps and GitHub Actions.
+          - Delivered reliability risk assessments, hands-on workshops, and custom engineering engagements for enterprise customers.
+          - Authored and shipped reusable engagement deliverables (MIPs) across multiple solution areas, accelerating customer onboarding.
+        Badges: ['Reliability', 'Bicep', 'Terraform', 'Azure', 'DevOps']
+
+  - Employer: RBA, Inc.
+    Positions:
+      - Title: DevOps Engineer
+        Date: Jun 2018 – Apr 2021
+        Place: Wayzata, MN
+        Details:
+          - Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
+          - Instrumented applications with APM/observability tools (New Relic, AppDynamics, App Insights, LogicMonitor) to identify bottlenecks and drive performance improvements.
+          - Integrated static analysis (SonarQube), dynamic security scanning (OWASP ZAP), and dependency auditing (WhiteSource) into CI/CD pipelines.
+        Badges: ['Azure', 'DevOps', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD']
+      - Title: Support Engineer
+        Date: Jun 2017 – Jun 2018
+        Place: Wayzata, MN
+        Details:
+          - Engineered and managed multi-region, active-active Azure environments supporting mission-critical workloads across e-commerce, financial services, agriculture, and real estate industries.
+          - Debugged complex distributed systems, tracing production issues down to application code.
+          - Implemented observability solutions (Stackify, New Relic, SCOM) across Azure production environments.
+        Badges: ['Azure', 'PowerShell', 'SQL Server', 'Monitoring']
+      - Title: IT Analyst
+        Date: Jun 2016 – Jun 2017
+        Place: Wayzata, MN
+        Details:
+          - Automated patching, monitoring, and reporting workflows using Microsoft System Center (SCCM, SCOM, SCSM, Orchestrator).
+          - Supported 70+ production servers across Hyper-V clusters, colocation, and on-prem environments.
+        Badges: ['SharePoint', 'System Center', 'Hyper-V', 'Office 365', 'TFS']
+
+  - Employer: Medtronic
+    Positions:
+      - Title: Information Technology Intern
+        Date: Jun 2015 – Aug 2015
+        Place: Plymouth, MN
+        Details:
+          - Monitored, logged, and escalated help desk tasks, ensuring proper prioritization.
+          - Created documentation for devices and software processes.
+        Badges: ['IT Support', 'Documentation']
+
+Education:
+  - Course: "BSc Finance | Minor: Information Systems"
+    Place: University of Wisconsin - La Crosse
+    Date: Graduated with highest honors, top 10% of class
+
+Skills:
+  - Family: Observability
+    Items:
+      - Prometheus / Grafana
+      - App Dynamics
+      - New Relic
+  - Family: Architecture & Practices
+    Items:
+      - Site Reliability Engineering
+      - Well-Architected Framework
+      - Distributed Systems
+      - CI/CD Pipeline Design
+      - Cloud Adoption Framework
+  - Family: Cloud & IaC
+    Items:
+      - Microsoft Azure
+      - Bicep
+      - HashiCorp Terraform
+  - Family: Platforms & DevOps
+    Items:
+      - GitHub / GitHub Actions
+      - Azure DevOps
+      - Git / Open-Source Development
+      - Docker / Kubernetes (AKS)
+  - Family: Languages & Frameworks
+    Items:
+      - PowerShell
+      - Bash / Shell
+  - Family: Test Automation, Quality, and AI
+    Items:
+      - SpecKit / Squad
+      - SonarQube
+      - OWASP ZAP
+      - Postman
+      - JMeter / BlazeMeter
+
+Certifications:
+  - Microsoft Certified Azure Solutions Architect Expert
+  - Microsoft Certified Azure DevOps Engineer Expert
+  - Microsoft Certified Azure Security Engineer Associate
+  - Microsoft Certified Azure Network Engineer Associate
+  - Microsoft Certified Azure Administrator Associate
+  - HashiCorp Certified Terraform Associate (003)
+  - Sitecore 9.0 Certified Platform Associate Developer
+
+Interests:
+  - Open-source software development and community contributions
+  - Mentoring engineers and developer enablement
+  - Distributed systems, developer tooling, and cloud-native architecture
+  - Motorcycles and Cars
+  - Plants and Gardening
+  - Gaming

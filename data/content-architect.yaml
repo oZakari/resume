@@ -1,0 +1,193 @@
+BasicInfo:
+  FirstName: Zach
+  LastName: Trocinski
+  Subtitle: SENIOR CLOUD SOLUTIONS ARCHITECT
+  Photo: img/profilepic.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: '<a class="contact__link" href="mailto:ztrocinski@outlook.com">ztrocinski@outlook.com</a>'
+    - Icon: fas fa-phone
+      Info: 612-990-3497
+    - Icon: fab fa-linkedin
+      Info: '<a class="contact__link" href="https://www.linkedin.com/in/zach-trocinski/" target="_blank">linkedin.com/in/zach-trocinski</a>'
+    - Icon: fab fa-github
+      Info: '<a class="contact__link" href="https://github.com/oZakari" target="_blank">github.com/oZakari</a>'
+    - Icon: fas fa-graduation-cap
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/" target="_blank">learn.microsoft.com/en-us/users/ozakari</a>'
+    - Icon: fas fa-award
+      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">www.credly.com/users/zach-trocinski</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Georgetown, TX
+
+Profile: >
+  Cloud Solutions Architect with 10+ years of experience leading enterprise Azure architecture, Infrastructure-as-Code
+  strategy, and reliability engagements for Fortune 500 and public-sector customers. Architect and lead of the Azure
+  Landing Zones (ALZ) Bicep framework and Azure Verified Modules (AVM), driving adoption across hundreds of thousands
+  of deployments and tens of thousands of customers. Trusted technical advisor and executive-level escalation point for
+  governance, resiliency, and complex cloud migrations. Proven track record influencing Microsoft product roadmaps and
+  setting technical direction across engineering and customer organizations.
+
+RecentHighlights:
+  - Header: Azure Landing Zones – Bicep Lead
+    Details:
+      - Led the end-to-end design and launch of the ALZ Platform Landing Zone, rebuilding it around 19 Azure Verified
+        Modules to power tens of thousands of enterprise deployments across hundreds of customers.
+      - Recognized as ALZ Lead and three-time Cloud Adoption Framework Evangelist.
+  - Header: Enterprise Customer Engagements & Executive Escalations
+    Details:
+      - Owned Microsoft-side resolution for a Fortune 100 customer's air-gapped GitHub Copilot application and
+        database modernization, coordinating Product Groups, GitHub engineering, and executive stakeholders on a
+        precedent-setting government/regulated-industry engagement.
+      - Delivered a first-of-its-kind Bicep Workshop Plus pilot and led a major financial institution's ALZ Terraform
+        Accelerator adoption, accelerating IaC maturity and enabling new Azure workload onboarding.
+  - Header: Well-Architected Reliability Leadership
+    Details:
+      - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
+        across insurance, energy, and public-sector organizations, driving adoption of resiliency best practices.
+  - Header: Product & Governance Influence
+    Details:
+      - Partnered with Microsoft product groups (RBAC, ARM, GitHub Copilot) to influence platform readiness, converting
+        customer-surfaced governance and security gaps into scheduled engineering workstreams.
+  - Header: Community & Field Enablement
+    Details:
+      - Managed the 3,850-member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views),
+        and delivered Level-Up training sessions.
+      - Mentored 25+ engineers and both senior and early-career CSAs on IaC, DevOps, CAF, and WAF best practices.
+
+Experience:
+  - Employer: Microsoft
+    Positions:
+      - Title: Cloud Solution Architect – Tech Success (Apps and AI)
+        Date: Oct 2025 – Present
+        Place: Austin, TX
+        Details:
+          - Own Microsoft-side resolution for a Fortune 100 customer's GitHub Copilot-powered application and
+            database modernization in an air-gapped, regulated environment, coordinating Product Groups, GitHub
+            engineering, and executive stakeholders on a precedent-setting engagement.
+          - Serve as primary technical escalation point for regulated/government cloud reference implementations,
+            unblocking public-sector engagements other senior architects could not resolve.
+          - Sustain Azure Landing Zones strategy and executive-level customer advisory through a platform ownership
+            transition, maintaining continuity for enterprise and public-sector stakeholders.
+        Badges: ['Executive Communication', 'Customer Escalation', 'Cloud Architecture', 'Governance', 'Azure Government']
+      - Title: Cloud Solution Architect – Tech Strategy (Infra)
+        Date: Oct 2022 – Oct 2025
+        Place: Austin, TX
+        Details:
+          - Led end-to-end design and launch of the Azure Landing Zones (ALZ) Bicep platform, rebuilding it around 19
+            Azure Verified Modules for enterprise-scale, multi-region deployments across ~560 unique customers.
+          - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
+            across insurance, energy, and public-sector organizations, driving resiliency best-practice adoption.
+          - Delivered a first-of-its-kind Bicep Workshop Plus pilot for an enterprise customer, accelerating their
+            Infrastructure-as-Code adoption and establishing a sustainable module strategy.
+          - Advised a major financial institution on ALZ Terraform Accelerator adoption, tailoring the solution for
+            Terraform Enterprise and policy-compliance scanning to enable their initial migration from AWS to Azure.
+          - Guided a large county government's ALZ deployment supporting a large-scale, multi-application cloud
+            migration, coordinating across account teams and providing long-term infrastructure strategy.
+          - Directed field enablement at scale, managing a 3,850-member ALZ community channel, hosting recurring
+            community calls (90–120 live attendees, 2,500+ views), and delivering Level-Up training sessions.
+        Badges: ['Azure Architecture', 'Bicep', 'Terraform', 'Well-Architected Framework', 'Governance', 'IaC']
+      - Title: Customer Engineer (Apps and Infra)
+        Date: Apr 2021 – Oct 2022
+        Place: Austin, TX
+        Details:
+          - Subject matter expert for IaC (Bicep and Terraform), Azure IaaS/PaaS, Azure WAF – Reliability, and CI/CD with Azure DevOps and GitHub Actions.
+          - Designed and implemented infrastructure solutions for customers, translating business requirements into scalable cloud architectures.
+          - Delivered reliability risk assessments, hands-on workshops, and custom engineering engagements for enterprise customers.
+          - Authored and shipped reusable engagement deliverables (MIPs) across multiple solution areas, accelerating customer onboarding.
+          - Awarded 'MSUS Learning Superhero' for leading team effort that unblocked an $8.3M Azure competitive win against AWS.
+        Badges: ['Bicep', 'Terraform', 'Azure', 'DevOps', 'Reliability', 'GitHub Actions']
+
+  - Employer: RBA, Inc.
+    Positions:
+      - Title: DevOps Engineer
+        Date: Jun 2018 – Apr 2021
+        Place: Wayzata, MN
+        Details:
+          - Led consulting engagements designing and building distributed applications and cloud-native services.
+          - Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
+          - Engineered CI/CD pipelines (Azure DevOps, Travis CI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
+          - Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS, ECS); automated infrastructure provisioning with ARM and Terraform.
+          - Mentored developers and client teams on agile practices, performance troubleshooting, and DevOps culture.
+        Badges: ['Azure', 'DevOps', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD', '.NET']
+      - Title: Support Engineer
+        Date: Jun 2017 – Jun 2018
+        Place: Wayzata, MN
+        Details:
+          - Engineered and managed multi-region, active-active Azure environments supporting mission-critical workloads across e-commerce, financial services, agriculture, and real estate industries.
+          - Led migration of 20+ web applications and databases from Azure IaaS to PaaS, reducing customer infrastructure costs.
+        Badges: ['Azure', 'PowerShell', 'SQL Server', 'Monitoring']
+      - Title: IT Analyst
+        Date: Jun 2016 – Jun 2017
+        Place: Wayzata, MN
+        Details:
+          - Implemented TFS/Azure DevOps for CI/CD pipelines and upgraded internal TFS server.
+          - Managed SharePoint 2013–2016/Online, including 50+ site collections, migrations, workflows, and full farm upgrades.
+        Badges: ['SharePoint', 'System Center', 'Hyper-V', 'Office 365', 'TFS']
+
+  - Employer: Medtronic
+    Positions:
+      - Title: Information Technology Intern
+        Date: Jun 2015 – Aug 2015
+        Place: Plymouth, MN
+        Details:
+          - Monitored, logged, and escalated help desk tasks, ensuring proper prioritization.
+          - Collaborated with tier III help desk, business analysts, and network engineers on projects.
+        Badges: ['IT Support', 'Documentation']
+
+Education:
+  - Course: "BSc Finance | Minor: Information Systems"
+    Place: University of Wisconsin - La Crosse
+    Date: Graduated with highest honors, top 10% of class
+
+Skills:
+  - Family: Cloud & IaC
+    Items:
+      - Microsoft Azure
+      - Bicep
+      - HashiCorp Terraform
+  - Family: Architecture & Practices
+    Items:
+      - CI/CD Pipeline Design
+      - Distributed Systems
+      - Well-Architected Framework
+      - Cloud Adoption Framework
+      - Site Reliability Engineering
+  - Family: Platforms & DevOps
+    Items:
+      - GitHub / GitHub Actions
+      - Azure DevOps
+      - Git / Open-Source Development
+      - Docker / Kubernetes (AKS)
+  - Family: Languages & Frameworks
+    Items:
+      - PowerShell
+      - Bash / Shell
+  - Family: Observability
+    Items:
+      - Prometheus / Grafana
+      - App Dynamics
+      - New Relic
+  - Family: Test Automation, Quality, and AI
+    Items:
+      - SpecKit / Squad
+      - SonarQube
+      - OWASP ZAP
+      - Postman
+      - JMeter / BlazeMeter
+
+Certifications:
+  - Microsoft Certified Azure Solutions Architect Expert
+  - Microsoft Certified Azure DevOps Engineer Expert
+  - Microsoft Certified Azure Security Engineer Associate
+  - Microsoft Certified Azure Network Engineer Associate
+  - Microsoft Certified Azure Administrator Associate
+  - HashiCorp Certified Terraform Associate (003)
+  - Sitecore 9.0 Certified Platform Associate Developer
+
+Interests:
+  - Open-source software development and community contributions
+  - Mentoring engineers and developer enablement
+  - Distributed systems, developer tooling, and cloud-native architecture
+  - Motorcycles and Cars
+  - Plants and Gardening
+  - Gaming

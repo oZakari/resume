@@ -9,3 +9,6 @@ node_modules/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local-only research data (not for publishing)
+/data/accomplishments_inventory.yaml

@@ -1,0 +1,191 @@
+BasicInfo:
+  FirstName: Zach
+  LastName: Trocinski
+  Subtitle: SENIOR PLATFORM & INFRASTRUCTURE ENGINEER
+  Photo: img/profilepic.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: '<a class="contact__link" href="mailto:ztrocinski@outlook.com">ztrocinski@outlook.com</a>'
+    - Icon: fas fa-phone
+      Info: 612-990-3497
+    - Icon: fab fa-linkedin
+      Info: '<a class="contact__link" href="https://www.linkedin.com/in/zach-trocinski/" target="_blank">linkedin.com/in/zach-trocinski</a>'
+    - Icon: fab fa-github
+      Info: '<a class="contact__link" href="https://github.com/oZakari" target="_blank">github.com/oZakari</a>'
+    - Icon: fas fa-graduation-cap
+      Info: '<a class="contact__link" href="https://learn.microsoft.com/en-us/users/ozakari/" target="_blank">learn.microsoft.com/en-us/users/ozakari</a>'
+    - Icon: fas fa-award
+      Info: '<a class="contact__link" href="https://www.credly.com/users/zach-trocinski" target="_blank">www.credly.com/users/zach-trocinski</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Georgetown, TX
+
+Profile: >
+  Senior Platform Engineer with 10+ years of experience designing, building, and operating production-grade
+  Infrastructure-as-Code platforms, CI/CD pipelines, and developer tooling at scale. Creator and owner of a modular
+  Azure Verified Modules (AVM) catalog and the ALZ-Bicep accelerator framework, powering reusable infrastructure
+  adopted across tens of thousands of deployments. Deep expertise in Bicep, Terraform, PowerShell automation, and
+  secure software supply chain practices (code signing, dependency scanning, OpenSSF hardening). Builds internal
+  developer platforms and automation that reduce delivery time and increase engineering productivity.
+
+RecentHighlights:
+  - Header: Azure Verified Modules & Reusable Infrastructure
+    Details:
+      - Built and own 10+ Azure Verified Modules (Container Apps, Kusto, Subscription Placement, Policy Exemptions,
+        AKS, App Service) forming reusable infrastructure building blocks adopted across thousands of subscriptions.
+      - Recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
+  - Header: ALZ-Bicep Platform Engineering
+    Details:
+      - Architected the ALZ-Bicep platform from the ground up onto Azure Verified Modules, introducing independent
+        module versioning, safer incremental deployments, and CI/CD pipelines across GitHub and Azure DevOps.
+      - Engineered ALZ Accelerator pipelines with ARM What-If operator support and multi-region/multi-zone toggles.
+  - Header: Secure Software Supply Chain & Automation
+    Details:
+      - Designed and implemented an enterprise code-signing pipeline for PowerShell modules using Microsoft
+        certificates, standardizing secure release engineering across multiple teams.
+      - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection), raising
+        OpenSSF Scorecard ratings across managed repositories.
+  - Header: Platform Automation for Modernization Offerings
+    Details:
+      - Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings,
+        reducing time-to-publish for new automation-driven offerings.
+  - Header: Engineering Enablement & Mentorship
+    Details:
+      - Mentored 25+ engineers as an Azure Verified Modules coach, expanding module ownership and contribution
+        velocity across teams outside the immediate org.
+
+Experience:
+  - Employer: Microsoft
+    Positions:
+      - Title: Cloud Solution Architect – Tech Success (Apps and AI)
+        Date: Oct 2025 – Present
+        Place: Austin, TX
+        Details:
+          - Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity,
+            Azure CNI Overlay with Cilium, Key Vault CSI Driver, and a reusable multi-cluster namespace pattern.
+          - Refactored the App Service Landing Zone onto AVM, updating App Service Plan, ASE, and Functions modules
+            and building a new Managed Instance module where none previously existed.
+          - Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization
+            offerings, reducing time-to-publish for new offerings.
+          - Extended the Azure Verified Modules catalog to 10+ owned modules, contributing AKS and App Service
+            additions upstream for broader engineering reuse.
+        Badges: ['Bicep', 'App Service', 'AKS', 'APIM,', 'AVM', 'CI/CD', 'Python', 'Automation']
+      - Title: Cloud Solution Architect – Tech Strategy (Infra)
+        Date: Oct 2022 – Oct 2025
+        Place: Austin, TX
+        Details:
+          - Architected and led the rebuild of the ALZ-Bicep platform onto Azure Verified Modules, introducing
+            independent module versioning, safer incremental deployments, and CI/CD pipelines across GitHub and Azure DevOps.
+          - Built and owned Azure Verified Modules (Container Apps, Kusto, Subscription Placement, Policy
+            Exemptions, Defender for Cloud, Hub Networking), forming reusable infrastructure adopted at scale.
+          - Engineered ALZ Accelerator pipelines with ARM What-If operator support, multi-region/multi-zone
+            deployment toggles, and automated bootstrap tooling to reduce one-off delivery effort.
+          - Designed and implemented an enterprise code-signing pipeline for PowerShell modules using Microsoft
+            certificates, standardizing secure release engineering across multiple engineering teams.
+          - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection) across
+            engineering repositories, raising OpenSSF Scorecard ratings.
+          - Mentored and onboarded 25+ engineers as an Azure Verified Modules coach, expanding module ownership and
+            contribution velocity across teams outside the immediate org.
+        Badges: ['Bicep', 'Terraform', 'PowerShell', 'CI/CD', 'GitHub Actions', 'Azure DevOps', 'Automation', 'IaC']
+      - Title: Customer Engineer (Apps and Infra)
+        Date: Apr 2021 – Oct 2022
+        Place: Austin, TX
+        Details:
+          - Subject matter expert for IaC (Bicep and Terraform), Azure IaaS/PaaS, Azure WAF – Reliability, and CI/CD with Azure DevOps and GitHub Actions.
+          - Designed and implemented infrastructure solutions for customers, translating business requirements into scalable cloud architectures.
+          - Authored and shipped reusable engagement deliverables (MIPs) across multiple solution areas, accelerating customer onboarding.
+        Badges: ['Bicep', 'Terraform', 'Azure', 'DevOps', 'GitHub Actions', 'Python']
+
+  - Employer: RBA, Inc.
+    Positions:
+      - Title: DevOps Engineer
+        Date: Jun 2018 – Apr 2021
+        Place: Wayzata, MN
+        Details:
+          - Engineered CI/CD pipelines (Azure DevOps, Travis CI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
+          - Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS, ECS); automated infrastructure provisioning with ARM and Terraform.
+          - Integrated static analysis (SonarQube), dynamic security scanning (OWASP ZAP), and dependency auditing (WhiteSource) into CI/CD pipelines.
+          - Automated build, release, and environment provisioning workflows using PowerShell scripting.
+          - Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
+        Badges: ['Azure', 'DevOps', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD', '.NET']
+      - Title: Support Engineer
+        Date: Jun 2017 – Jun 2018
+        Place: Wayzata, MN
+        Details:
+          - Developed PowerShell automation scripts for configuration management; maintained SQL Server environments (mirroring, replication, maintenance jobs).
+          - Led migration of 20+ web applications and databases from Azure IaaS to PaaS, reducing customer infrastructure costs.
+        Badges: ['Azure', 'PowerShell', 'SQL Server', 'Monitoring']
+      - Title: IT Analyst
+        Date: Jun 2016 – Jun 2017
+        Place: Wayzata, MN
+        Details:
+          - Implemented TFS/Azure DevOps for CI/CD pipelines and upgraded internal TFS server.
+          - Automated patching, monitoring, and reporting workflows using Microsoft System Center (SCCM, SCOM, SCSM, Orchestrator).
+        Badges: ['SharePoint', 'System Center', 'Hyper-V', 'Office 365', 'TFS']
+
+  - Employer: Medtronic
+    Positions:
+      - Title: Information Technology Intern
+        Date: Jun 2015 – Aug 2015
+        Place: Plymouth, MN
+        Details:
+          - Monitored, logged, and escalated help desk tasks, ensuring proper prioritization.
+          - Created documentation for devices and software processes.
+        Badges: ['IT Support', 'Documentation']
+
+Education:
+  - Course: "BSc Finance | Minor: Information Systems"
+    Place: University of Wisconsin - La Crosse
+    Date: Graduated with highest honors, top 10% of class
+
+Skills:
+  - Family: Cloud & IaC
+    Items:
+      - Microsoft Azure
+      - Bicep
+      - HashiCorp Terraform
+  - Family: Platforms & DevOps
+    Items:
+      - GitHub / GitHub Actions
+      - Azure DevOps
+      - Git / Open-Source Development
+      - Docker / Kubernetes (AKS)
+  - Family: Languages & Frameworks
+    Items:
+      - PowerShell
+      - Bash / Shell
+  - Family: Test Automation, Quality, and AI
+    Items:
+      - SpecKit / Squad
+      - SonarQube
+      - OWASP ZAP
+      - Postman
+      - JMeter / BlazeMeter
+  - Family: Observability
+    Items:
+      - Prometheus / Grafana
+      - App Dynamics
+      - New Relic
+  - Family: Architecture & Practices
+    Items:
+      - CI/CD Pipeline Design
+      - Distributed Systems
+      - Site Reliability Engineering
+      - Well-Architected Framework
+      - Cloud Adoption Framework
+
+Certifications:
+  - Microsoft Certified Azure Solutions Architect Expert
+  - Microsoft Certified Azure DevOps Engineer Expert
+  - Microsoft Certified Azure Security Engineer Associate
+  - Microsoft Certified Azure Network Engineer Associate
+  - Microsoft Certified Azure Administrator Associate
+  - HashiCorp Certified Terraform Associate (003)
+  - Sitecore 9.0 Certified Platform Associate Developer
+
+Interests:
+  - Open-source software development and community contributions
+  - Mentoring engineers and developer enablement
+  - Distributed systems, developer tooling, and cloud-native architecture
+  - Motorcycles and Cars
+  - Plants and Gardening
+  - Gaming
