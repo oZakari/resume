@@ -7,7 +7,8 @@
         <div class="highlights">
             {{ range .RecentHighlights }}
             <div class="highlights__item">
-                <h3 class="highlights__header">{{ .Header | safeHTML }}</h3>
+                <h3 class="highlights__header">{{ with .Icon }}<i class="{{ . }} highlights__icon"></i> {{ end }}{{ .Header | safeHTML
+                    }}</h3>
                 <ul>
                     {{ range .Details }}
                     <li class="highlights__detail">{{ . | safeHTML }}</li>

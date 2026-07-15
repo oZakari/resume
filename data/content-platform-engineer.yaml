@@ -30,26 +30,31 @@ Profile: >
 
 RecentHighlights:
   - Header: Azure Verified Modules & Reusable Infrastructure
+    Icon: fas fa-cubes
     Details:
       - Built and own 10+ Azure Verified Modules (Container Apps, Kusto, Subscription Placement, Policy Exemptions,
         AKS, App Service) forming reusable infrastructure building blocks adopted across thousands of subscriptions.
       - Recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
   - Header: ALZ-Bicep Platform Engineering
+    Icon: fas fa-layer-group
     Details:
       - Architected the ALZ-Bicep platform from the ground up onto Azure Verified Modules, introducing independent
         module versioning, safer incremental deployments, and CI/CD pipelines across GitHub and Azure DevOps.
       - Engineered ALZ Accelerator pipelines with ARM What-If operator support and multi-region/multi-zone toggles.
   - Header: Secure Software Supply Chain & Automation
+    Icon: fas fa-lock
     Details:
       - Designed and implemented an enterprise code-signing pipeline for PowerShell modules using Microsoft
         certificates, standardizing secure release engineering across multiple teams.
       - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection), raising
         OpenSSF Scorecard ratings across managed repositories.
   - Header: Platform Automation for Modernization Offerings
+    Icon: fas fa-cogs
     Details:
       - Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings,
         reducing time-to-publish for new automation-driven offerings.
   - Header: Engineering Enablement & Mentorship
+    Icon: fas fa-users
     Details:
       - Mentored 25+ engineers as an Azure Verified Modules coach, expanding module ownership and contribution
         velocity across teams outside the immediate org.

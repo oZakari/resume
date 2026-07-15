@@ -29,11 +29,13 @@ Profile: >
 
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
+    Icon: fas fa-layer-group
     Details:
       - Led the end-to-end design and launch of the ALZ Platform Landing Zone, rebuilding it around 19 Azure Verified
         Modules to power tens of thousands of enterprise deployments across hundreds of customers.
       - Recognized as ALZ Lead and three-time Cloud Adoption Framework Evangelist.
   - Header: Enterprise Customer Engagements & Executive Escalations
+    Icon: fas fa-briefcase
     Details:
       - Owned Microsoft-side resolution for a Fortune 100 customer's air-gapped GitHub Copilot application and
         database modernization, coordinating Product Groups, GitHub engineering, and executive stakeholders on a
@@ -41,14 +43,17 @@ RecentHighlights:
       - Delivered a first-of-its-kind Bicep Workshop Plus pilot and led a major financial institution's ALZ Terraform
         Accelerator adoption, accelerating IaC maturity and enabling new Azure workload onboarding.
   - Header: Well-Architected Reliability Leadership
+    Icon: fas fa-shield-alt
     Details:
       - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
         across insurance, energy, and public-sector organizations, driving adoption of resiliency best practices.
   - Header: Product & Governance Influence
+    Icon: fas fa-balance-scale
     Details:
       - Partnered with Microsoft product groups (RBAC, ARM, GitHub Copilot) to influence platform readiness, converting
         customer-surfaced governance and security gaps into scheduled engineering workstreams.
   - Header: Community & Field Enablement
+    Icon: fas fa-users
     Details:
       - Managed the 3,850-member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views),
         and delivered Level-Up training sessions.

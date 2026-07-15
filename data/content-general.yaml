@@ -30,6 +30,7 @@ Profile: >
 
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
+    Icon: fas fa-layer-group
     Details:
       - Built and led the ALZ-Bicep framework from the ground up, architecting a modular platform of 19 Azure Verified
         Modules that powers tens of thousands of enterprise deployments across hundreds of customers, delivering
@@ -37,12 +38,14 @@ RecentHighlights:
         parameter file support.
       - Recognized as ALZ Lead and Cloud Adoption Framework Evangelist (3x).
   - Header: Azure Verified Modules (AVM)
+    Icon: fas fa-cubes
     Details:
       - Built and own 10+ Azure Verified Modules for Platform Landing Zones, adopted across hundreds of thousands of
         deployments and tens of thousands of customers.
       - Recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions
         and cross-team enablement.
   - Header: Enterprise Customer Impact
+    Icon: fas fa-briefcase
     Details:
       - Owned Microsoft-side resolution for a Fortune 100 customer's air-gapped GitHub Copilot application and
         database modernization, coordinating Product Groups, GitHub engineering, and executive stakeholders on a
@@ -50,6 +53,7 @@ RecentHighlights:
       - Delivered a first-of-its-kind Bicep Workshop Plus pilot and led a major financial institution's ALZ Terraform
         Accelerator adoption, accelerating IaC maturity for both customers.
   - Header: Technical Escalation & Reliability
+    Icon: fas fa-bolt
     Details:
       - Served as the primary technical escalation point for field CSAs across high-severity, cross-technology customer
         issues, rapidly resolving complex challenges spanning infrastructure, code, and architecture for enterprise and
@@ -57,6 +61,7 @@ RecentHighlights:
       - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of
         resiliency best practices across enterprise environments.
   - Header: Community & Field Enablement
+    Icon: fas fa-users
     Details:
       - Managed the 3,850-member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views),
         delivered Level-Up training sessions.

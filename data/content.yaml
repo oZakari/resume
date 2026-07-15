@@ -27,25 +27,46 @@ Profile: >
 
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
+    Icon: fas fa-layer-group
     Details:
-      - Built and led the ALZ-Bicep framework from the ground up, architecting a modular platform of 19 Azure Verified Modules deployed 33,000+ times across 560+ enterprise customers, delivering end-to-end customization, Azure Deployment Stacks integration, decoupled policy management, and modern Bicep parameter file support.
+      - Built and led the ALZ-Bicep framework from the ground up — architecting a modular platform of 19 Azure Verified Modules deployed 33,000+ times across 560+ enterprise customers, engineering end-to-end customization, Azure Deployment Stacks integration, decoupled policy management, and modern Bicep parameter file support.
       - Recognized as ALZ Lead and Cloud Adoption Framework Evangelist (3x).
-  - Header: Azure Verified Modules (AVM)
+  - Header: Azure Verified Modules (AVM) - Bicep Lead
+    Icon: fas fa-cubes
     Details:
-      - Built and own 14 Azure Verified Modules for Platform Landing Zones, adopted across hundreds of thousands of deployments and tens of thousands of customers.
-      - Recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions and cross-team enablement.
-  - Header: APRL Technical Lead
+      - Built and own 14 Azure Verified Modules for Platform Landing Zones, and assisted with 10+ additional modules, collectively adopted across hundreds of thousands of deployments and tens of thousands of customers.
+      - Recognized as Platinum Contributor (FY25 & FY26), Community Champion, and Bicep Coach for sustained open-source contributions and cross-team enablement.
+  - Header: Azure Proactive Resiliency Library - Technical Lead
+    Icon: fas fa-shield-alt
     Details:
       - Led architecture, development, and ownership of the Azure Proactive Resiliency Library (APRL), stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure PowerShell code signing.
       - Helped scale APRL into a company-wide customer offering, partnering across engineering teams to productize the framework and deliver it to customers at scale as a fiscal-year priority.
   - Header: Customer Engagements & Technical Escalation
+    Icon: fas fa-bolt
     Details:
-      - Owned Microsoft-side resolution for Boeing's air-gapped GitHub Copilot application and database modernization, protecting a $600M data center exit and setting the reference pattern for government/regulated-industry customers.
-      - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue — including $1.3M (Boeing Airlines), $300K ACR (First Citizens Bank), and $120K ACR (Brown & Brown, Cox Auto) — by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
-      - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of resiliency best practices across enterprise environments.
+      - Owned Microsoft-side resolution for a Fortune 100 customer's air-gapped GitHub Copilot application and database modernization, protecting a $600M data center exit and setting the reference pattern for government/regulated-industry customers.
+      - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue — including $1.3M (a major airline customer), $300K ACR (a regional bank), and $120K ACR (an insurance brokerage and an automotive customer) — by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
+      - Delivered a first-of-its-kind Bicep Workshop Plus pilot for an insurance brokerage customer, reducing their Bicep development timeline from years to months and establishing a sustainable module strategy.
+      - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of resiliency best practices across enterprise environments; recognized as Azure Resiliency Leader (Platinum).
+  - Header: Resiliency & Disaster Recovery Engineering
+    Icon: fas fa-life-ring
+    Details:
+      - Served as Directly Responsible Individual for Azure Monitoring , restoring product features to SLA, building a complete threat model, and delivering a Disaster Recovery Plan approved by the BCDR team.
+      - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling customers to deploy zone-redundant infrastructure without custom configuration.
+  - Header: Secure Software Supply Chain & Automation
+    Icon: fas fa-lock
+    Details:
+      - Designed and implemented an enterprise code-signing pipeline for PowerShell modules using Microsoft certificates, standardizing secure release engineering across multiple engineering teams.
+      - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection), raising OpenSSF Scorecard ratings across managed repositories.
+  - Header: Platform Modernization Engineering
+    Icon: fas fa-cogs
+    Details:
+      - Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity, Azure CNI Overlay with Cilium, Key Vault CSI Driver, and a reusable multi-cluster namespace pattern.
+      - Refactored the App Service Landing Zone onto AVM and built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings, reducing time-to-publish for new offerings.
   - Header: Community & Field Enablement
+    Icon: fas fa-users
     Details:
-      - Managed the 3,850-member ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views), delivered Level-Up training sessions.
+      - Managed the 3,850-member internal ALZ-Bicep channel, presented at community calls (90–120 attendees, 2,500+ views per video), delivered Level-Up training sessions; recognized as FY26 LevelUp Luminary.
       - Mentored 25+ engineers and both senior and early-career CSAs on IaC, DevOps, CAF, and WAF best practices.
 
 Experience:
@@ -55,25 +76,33 @@ Experience:
         Date: Oct 2025 – Jul 2026
         Place: Austin, TX
         Details:
-          - Owned Microsoft-side resolution for Boeing's GitHub Copilot-powered application and database modernization in an air-gapped, regulated environment — protecting a $600M data center exit — coordinating Product Groups, GitHub engineering, and executive stakeholders.
-          - Unblocked a $1.3M Boeing Airlines opportunity escalated after a prior engagement stalled, coordinating across multiple product teams to drive resolution.
+          - Owned Microsoft-side resolution for a Fortune 100 customer's GitHub Copilot-powered application and database modernization in an air-gapped, regulated environment — protecting a $600M data center exit — coordinating Product Groups, GitHub engineering, and executive stakeholders.
+          - Unblocked a $1.3M opportunity for a major airline customer, escalated after a prior engagement stalled, coordinating across multiple product teams to drive resolution.
+          - Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity, Azure CNI Overlay with Cilium, Key Vault CSI Driver, and a reusable multi-cluster namespace pattern.
+          - Refactored the App Service Landing Zone onto AVM, updating App Service Plan, ASE, and Functions modules and building a new Managed Instance module where none previously existed.
+          - Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings, reducing time-to-publish for new offerings.
+          - Served as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA, building a complete threat model, and delivering a Disaster Recovery Plan approved by the BCDR team; raised OpenSSF Scorecard security rating (7.5 → 8.1) via Dependabot, CodeQL, SAST scanning, and hardened CI/CD runners.
           - Partnered with Microsoft product groups to influence platform readiness (GitHub Copilot BYOK, App Modernization tooling) through scenario-based testing and cross-team collaboration.
           - Sustained Azure Landing Zones (ALZ) and Azure Verified Modules (AVM) ownership — 10+ modules powering 435,000+ deployments across 8,400+ subscriptions — and executive-level customer advisory through a platform ownership transition.
-        Badges: ['Executive Communication', 'Customer Escalation', 'ALZ', 'AVM', 'Azure Government', 'Automation']
+          - Recognized as FY26 Value Acceleration IP Contributor (Silver) for reusable IP delivered through Factory and platform modernization offerings.
+        Badges: ['Bicep', 'AKS', 'App Service', 'AVM', 'Executive Communication', 'Customer Escalation', 'Monitoring', 'Azure Government', 'Automation']
       - Title: Cloud Solution Architect – Tech Strategy (Infra)
         Date: Oct 2022 – Oct 2025
         Place: Austin, TX
         Details:
           - Promoted to Cloud Solutions Architect after 18 months as a Customer Engineer, assuming ownership of Azure Landing Zones (ALZ) strategy and enterprise Infrastructure-as-Code delivery.
           - Built and led the ALZ-Bicep framework from the ground up, architecting a modular platform of 19 open-source modules deployed 33,000+ times across 560+ enterprise customers — owning architecture, code reviews, release engineering, and cross-team collaboration.
+          - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling customers to deploy zone-redundant infrastructure without custom configuration.
           - Led large-scale Azure migrations for enterprise and public-sector customers, including a $150M multi-application cloud migration for a county government and an AWS-to-Azure migration that enabled a financial institution's Terraform Enterprise adoption.
-          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), stabilizing CI/CD pipelines, standardizing metadata schemas, and implementing secure code signing; helped scale it into a company-wide customer offering delivered at scale as a fiscal-year priority.
-          - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue — including $300K ACR (First Citizens Bank) and $120K ACR (Brown & Brown, Cox Auto) — by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
-          - Designed and built 14 Azure Verified Modules adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
-          - Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions, ensuring enterprise readiness.
+          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), stabilizing CI/CD pipelines, standardizing metadata schemas, and designing an enterprise code-signing pipeline for PowerShell modules using Microsoft certificates; helped scale APRL into a company-wide customer offering delivered at scale as a fiscal-year priority.
+          - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection) across engineering repositories, raising OpenSSF Scorecard ratings.
+          - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue — including $300K ACR (a regional bank) and $120K ACR (an insurance brokerage and an automotive customer) — by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
+          - Delivered a first-of-its-kind Bicep Workshop Plus pilot for an insurance brokerage customer, reducing their Bicep development timeline from years to months and establishing a sustainable module strategy.
+          - Designed and built 14 Azure Verified Modules, and assisted with 10+ additional modules, collectively adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
+          - Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions — closing a governance gap that could have led to over-privileged access at enterprise scale.
           - Led Well-Architected Reliability Assessments and remediation engagements across enterprise and public-sector customers, driving adoption of resiliency patterns and earning consistently strong customer and leadership feedback.
           - Drove developer community enablement; managed a 3,850-member Teams channel, presented at community calls (90–120 attendees, 2,500+ views), delivered training sessions, and mentored 25+ engineers on software engineering and DevOps best practices.
-        Badges: ['Bicep', 'Azure', 'ALZ', 'AVM', 'IaC', 'DevOps', 'Terraform', 'PowerShell', 'Open Source']
+        Badges: ['Bicep', 'Azure', 'ALZ', 'AVM', 'IaC', 'DevOps', 'Terraform', 'PowerShell', 'Security', 'Open Source']
       - Title: Customer Engineer
         Date: Apr 2021 – Oct 2022
         Place: Austin, TX
@@ -83,6 +112,7 @@ Experience:
           - Delivered reliability risk assessments, hands-on workshops, and custom engineering engagements for enterprise customers.
           - Authored and shipped reusable engagement deliverables (MIPs) across multiple solution areas, accelerating customer onboarding.
           - Awarded 'MSUS Learning Superhero' for leading team effort that unblocked an $8.3M Azure competitive win against AWS.
+          - Active member of team D&I group promoting Microsoft's mission to reduce inequalities, increase innovation, and accelerate organizational change.
         Badges: ['Bicep', 'Terraform', 'Azure', 'DevOps', 'Reliability', 'GitHub Actions']
 
   - Employer: RBA, Inc.
@@ -182,6 +212,7 @@ Certifications:
   - Microsoft Certified Azure Network Engineer Associate
   - Microsoft Certified Azure Administrator Associate
   - HashiCorp Certified Terraform Associate (003)
+  - GitHub Copilot Certification
   - Sitecore 9.0 Certified Platform Associate Developer
 
 Interests:

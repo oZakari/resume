@@ -615,6 +615,20 @@ body,
   }
 }
 
+.highlights__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  background-color: var(--cv-icon-bg);
+  color: var(--cv-icon-fg);
+  vertical-align: middle;
+}
+
 // Certifications list refinement
 .sideSection__content ul {
   padding-left: 0;

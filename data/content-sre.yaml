@@ -30,29 +30,34 @@ Profile: >
 
 RecentHighlights:
   - Header: Well-Architected Reliability Assessments
+    Icon: fas fa-clipboard-check
     Details:
       - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
         across insurance, energy, and public-sector organizations, driving resiliency best-practice adoption.
       - Reverse-shadowed and mentored teammates on WARA delivery, improving consistency and quality of assessments.
   - Header: Resiliency & Disaster Recovery Engineering
+    Icon: fas fa-life-ring
     Details:
       - Delivered a WARA remediation engagement implementing service health alerts at scale and network-specific
         metric alerts using the AMBA (Azure Monitor Baseline Alerts) framework.
       - Built a complete threat model and a Disaster Recovery Plan for a monitoring framework, receiving formal
         risk-program and BCDR team approval.
   - Header: Secure & Resilient Architecture
+    Icon: fas fa-shield-alt
     Details:
       - Led design of a resilient AKS Secure Baseline architecture, incorporating etcd encryption via KMS v2, private
         Key Vault integration, and multi-cluster observability patterns.
       - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling
         zone-redundant infrastructure deployment without custom configuration.
   - Header: Monitoring & Operational Excellence
+    Icon: fas fa-chart-line
     Details:
       - Served as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA and
         building custom queries/reports to support product health reviews.
       - Raised OpenSSF Scorecard security rating (7.5 → 8.1) for a monitoring framework via Dependabot, CodeQL, SAST
         scanning, and hardened CI/CD runners.
   - Header: Governance & Risk Reduction
+    Icon: fas fa-balance-scale
     Details:
       - Partnered with the RBAC product team to validate governance behavior within Deployment Stacks, closing a
         gap that could have led to over-privileged access at enterprise scale.
