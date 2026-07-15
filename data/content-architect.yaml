@@ -74,8 +74,7 @@ Experience:
         Place: Austin, TX
         Details:
           - Led end-to-end design and launch of the Azure Landing Zones (ALZ) Bicep platform, rebuilding it around 19
-            Azure Verified Modules for enterprise-scale, multi-region deployments across ~560 unique customers.
-          - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
+            Azure Verified Modules for enterprise-scale, multi-region deployments across ~560 unique customers          - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers
             across insurance, energy, and public-sector organizations, driving resiliency best-practice adoption.
           - Delivered a first-of-its-kind Bicep Workshop Plus pilot for an enterprise customer, accelerating their
             Infrastructure-as-Code adoption and establishing a sustainable module strategy.
