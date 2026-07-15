@@ -20,7 +20,7 @@ BasicInfo:
       Info: Georgetown, TX
 
 Profile: >
-  Cloud Solutions Architect and Platform Engineer with 10+ years of Azure-focused experience spanning my entire career, leading Azure Landing Zones (ALZ) strategy, Infrastructure-as-Code platforms, enterprise cloud architecture, and large-scale customer migrations to Azure across Infrastructure and Apps workloads.
+  Cloud Solutions Architect and Cloud Engineer with 10+ years of Azure-focused experience spanning my entire career, leading Azure Landing Zones (ALZ) strategy, Infrastructure-as-Code platforms, enterprise cloud architecture, and large-scale customer migrations to Azure across Infrastructure and Apps workloads.
   Creator and lead of the ALZ-Bicep framework and Azure Verified Modules (AVM), adopted across hundreds of thousands of deployments and tens of thousands of customers, and unblocking millions of dollars in customer revenue through high-severity technical escalations.
   Deep expertise in Bicep, Terraform, and PowerShell automation, CI/CD pipeline engineering, and Well-Architected reliability practices.
   Proven technical lead driving complex enterprise customer engagements, executive-level advisory, and developer enablement across Microsoft's engineering and field organizations.
@@ -63,9 +63,9 @@ Experience:
           - Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity, Azure CNI Overlay with Cilium, Key Vault CSI Driver, and a reusable multi-cluster namespace pattern.
           - Refactored the App Service Landing Zone onto AVM, updating App Service Plan, ASE, and Functions modules and building a new Managed Instance test case where none previously existed.
           - Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings, reducing time-to-publish for new offerings.
-          - Served as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA, building a complete threat model, and delivering a Disaster Recovery Plan approved by the BCDR team; raised OpenSSF Scorecard security rating via Dependabot, CodeQL, SAST scanning, and hardened CI/CD runners.
+          - Served as Directly Responsible Individual (DRI) for Azure Monitoring (including the Azure Monitor Baseline Alerts framework), restoring product features to SLA, building a complete threat model, and delivering a Disaster Recovery Plan approved by the BCDR team; raised OpenSSF Scorecard security rating via Dependabot, CodeQL, SAST scanning, and hardened CI/CD runners.
           - Partnered with Microsoft product groups to influence platform readiness (GitHub Copilot BYOK, App Modernization tooling) through scenario-based testing and cross-team collaboration.
-          - Sustained Azure Landing Zones (ALZ) and Azure Verified Modules (AVM) ownership — 10+ modules powering 435,000+ deployments across 8,400+ subscriptions — and executive-level customer advisory through a platform ownership transition.
+          - Sustained Azure Landing Zones (ALZ) and Azure Verified Modules (AVM) ownership — 10+ modules powering 435,000+ deployments across 8,400+ subscriptions — and executive-level customer advisory through a transition to engineering organization within Microsoft.
           - Built Mulesoft-to-APIM and Apigee-to-APIM modernization offerings — Bicep/Terraform IaC aligned to the APIM Landing Zone Accelerator and AVM — reusing shared infrastructure across offerings to accelerate time-to-publish.
           - Recognized as FY26 Value Acceleration IP Contributor (Silver) for reusable IP delivered through Factory and platform modernization offerings.
         Badges: ['Bicep', 'AKS', 'App Service', 'API Management', 'AVM', 'Executive Communication', 'Customer Escalation', 'Monitoring', 'Azure Government', 'Automation']
@@ -73,14 +73,12 @@ Experience:
         Date: Oct 2022 – Oct 2025
         Place: Austin, TX
         Details:
-          - Promoted to Cloud Solutions Architect after 18 months as a Customer Engineer, assuming ownership of Azure Landing Zones (ALZ) strategy and enterprise Infrastructure-as-Code delivery.
-          - Built and led the ALZ-Bicep framework from the ground up, architecting a modular platform of 19 open-source modules deployed 33,000+ times across 560+ enterprise customers — owning architecture, code reviews, release engineering, and cross-team collaboration.
+          - Built and led the ALZ-Bicep AVM-based framework from the ground up, architecting a modular platform of 19 open-source modules deployed 33,000+ times across 560+ enterprise customers — owning architecture, code reviews, release engineering, and cross-team collaboration.
+          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), incorporation of CI/CD pipelines, standardizing metadata schemas, and designing an enterprise code-signing pipeline for PowerShell modules using Microsoft certificates; helped scale APRL into a company-wide customer offering delivered at scale as a fiscal-year priority.
           - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling customers to deploy zone-redundant infrastructure without custom configuration.
           - Led large-scale Azure migrations for enterprise and public-sector customers, including a $150M multi-application cloud migration for a county government and an AWS-to-Azure migration that enabled a financial institution's Terraform Enterprise adoption.
-          - Led architecture and development of the Azure Proactive Resiliency Library (APRL), stabilizing CI/CD pipelines, standardizing metadata schemas, and designing an enterprise code-signing pipeline for PowerShell modules using Microsoft certificates; helped scale APRL into a company-wide customer offering delivered at scale as a fiscal-year priority.
           - Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection) across engineering repositories, raising OpenSSF Scorecard ratings.
-          - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue — including $300K ACR (a regional bank) and $120K ACR (an insurance brokerage and an automotive customer) — by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
-          - Delivered a first-of-its-kind Bicep Workshop Plus pilot for an insurance brokerage customer, reducing their Bicep development timeline from years to months and establishing a sustainable module strategy.
+          - Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
           - Designed and built 14 Azure Verified Modules, and assisted with 10+ additional modules, collectively adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
           - Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions — closing a governance gap that could have led to over-privileged access at enterprise scale.
           - Led Well-Architected Reliability Assessments and remediation engagements across enterprise and public-sector customers, driving adoption of resiliency patterns and earning consistently strong customer and leadership feedback.
@@ -155,6 +153,7 @@ Education:
 Skills:
   - Family: Languages & Frameworks
     Items:
+      - Python
       - PowerShell
       - Bash / Shell
   - Family: Cloud & IaC
