@@ -1,5 +1,5 @@
 {{ $main := resources.Get "scss/main.scss" }}
-{{ $contentData := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
+{{ $contentData := or (index hugo.Data .Site.Language.Lang).content hugo.Data.content }}
 {{ $extraVars := printf "$print-header-name: '%s %s' !default;\n$print-header-subtitle: '%s' !default;\n" (upper $contentData.BasicInfo.FirstName) (upper $contentData.BasicInfo.LastName) $contentData.BasicInfo.Subtitle }}
 {{ $combined := printf "%s\n%s" $extraVars $main.Content | resources.FromString "scss/main_combined.scss" }}
 {{ $style := $combined | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
