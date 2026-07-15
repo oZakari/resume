@@ -45,6 +45,12 @@ body {
   &__right {
     width: 30rem;
     padding: 1.5rem 2rem;  }
+
+  &__full {
+    clear: both;
+    width: 100%;
+    padding: 0 2.5rem;
+  }
 }
 
 .highlights {
@@ -117,6 +123,11 @@ body {
       float: right;
       width: 35%;
       right: auto;
+    }
+
+    &__full {
+      clear: both;
+      width: 100%;
     }
   }
 }
@@ -491,6 +502,7 @@ body {
     text-align: left;
     white-space: nowrap;
     align-self: start;
+    margin-left: 1rem;
   }
 
   // The (class-less) wrapper div around __place, immediately following
@@ -793,6 +805,24 @@ body,
       right: auto;
       height: auto;
       box-shadow: none !important;
+    }
+
+    &__full {
+      clear: both;
+      float: none;
+      width: 100%;
+      height: auto;
+      // Always start Experience/Education/References on a fresh page.
+      // Relying purely on "clear: both" here is fragile — when the sidebar
+      // column is taller than the intro column, the natural clear point
+      // lands mid-page, leaving a large gap and splitting the section
+      // heading's accent bar across the page boundary. Forcing a clean
+      // page break avoids both problems entirely.
+      break-before: page;
+      page-break-before: always;
+      // Give the first heading breathing room below the running
+      // page header (name + subtitle + green rule) at the top of the page.
+      margin-top: 1.5rem;
     }
   }
 
