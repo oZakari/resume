@@ -23,9 +23,10 @@ Profile: >
   Senior Platform Engineer with 10+ years of experience designing, building, and operating production-grade
   Infrastructure-as-Code platforms, CI/CD pipelines, and developer tooling at scale. Creator and owner of a modular
   Azure Verified Modules (AVM) catalog and the ALZ-Bicep accelerator framework, powering reusable infrastructure
-  adopted across tens of thousands of deployments. Deep expertise in Bicep, Terraform, PowerShell automation, and
-  secure software supply chain practices (code signing, dependency scanning, OpenSSF hardening). Builds internal
-  developer platforms and automation that reduce delivery time and increase engineering productivity.
+  adopted across tens of thousands of deployments, including large-scale customer migrations to Azure across
+  Infrastructure and Apps workloads. Deep expertise in Bicep, Terraform, PowerShell automation, and secure software
+  supply chain practices (code signing, dependency scanning, OpenSSF hardening). Builds internal developer platforms
+  and automation that reduce delivery time and increase engineering productivity.
 
 RecentHighlights:
   - Header: Azure Verified Modules & Reusable Infrastructure
@@ -57,7 +58,7 @@ Experience:
   - Employer: Microsoft
     Positions:
       - Title: Cloud Solution Architect – Tech Success (Apps and AI)
-        Date: Oct 2025 – Present
+        Date: Oct 2025 – Jul 2026
         Place: Austin, TX
         Details:
           - Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity,
@@ -75,6 +76,9 @@ Experience:
         Details:
           - Architected and led the rebuild of the ALZ-Bicep platform onto Azure Verified Modules, introducing
             independent module versioning, safer incremental deployments, and CI/CD pipelines across GitHub and Azure DevOps.
+          - Engineered reusable ALZ/AVM migration patterns underpinning large-scale Azure migrations for enterprise
+            and public-sector customers, including a $150M multi-application cloud migration for a county government
+            and an AWS-to-Azure migration for a financial institution.
           - Built and owned Azure Verified Modules (Container Apps, Kusto, Subscription Placement, Policy
             Exemptions, Defender for Cloud, Hub Networking), forming reusable infrastructure adopted at scale.
           - Engineered ALZ Accelerator pipelines with ARM What-If operator support, multi-region/multi-zone

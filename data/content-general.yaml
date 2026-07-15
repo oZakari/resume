@@ -24,8 +24,9 @@ Profile: >
   software, open-source frameworks, developer tooling, and distributed cloud systems at scale. Creator and maintainer
   of open-source modules adopted across hundreds of thousands of deployments and tens of thousands of customers. Deep
   expertise in Infrastructure-as-Code (Bicep, Terraform, PowerShell), CI/CD pipeline engineering, enterprise cloud
-  architecture, and reliability engineering. Proven technical lead driving complex software delivery, executive-level
-  customer escalations, open-source collaboration, and developer enablement across Microsoft's engineering and product teams.
+  architecture, reliability engineering, and large-scale customer migrations to Azure across Infrastructure and Apps
+  workloads. Proven technical lead driving complex software delivery, executive-level customer escalations, open-source
+  collaboration, and developer enablement across Microsoft's engineering and product teams.
 
 RecentHighlights:
   - Header: Azure Landing Zones – Bicep Lead
@@ -50,8 +51,9 @@ RecentHighlights:
         Accelerator adoption, accelerating IaC maturity for both customers.
   - Header: Technical Escalation & Reliability
     Details:
-      - Served as the primary escalation point for high-severity infrastructure and code issues, resolving complex
-        IaC and platform engineering challenges for enterprise and public-sector customers.
+      - Served as the primary technical escalation point for field CSAs across high-severity, cross-technology customer
+        issues, rapidly resolving complex challenges spanning infrastructure, code, and architecture for enterprise and
+        public-sector customers.
       - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements, driving adoption of
         resiliency best practices across enterprise environments.
   - Header: Community & Field Enablement
@@ -64,7 +66,7 @@ Experience:
   - Employer: Microsoft
     Positions:
       - Title: Cloud Solution Architect – Tech Success (Apps and AI)
-        Date: Oct 2025 – Present
+        Date: Oct 2025 – Jul 2026
         Place: Austin, TX
         Details:
           - Own Microsoft-side resolution for a Fortune 100 customer's GitHub Copilot-powered application and
@@ -82,6 +84,9 @@ Experience:
           - Built and led the ALZ-Bicep framework from the ground up, designing and shipping a modular platform of 19
             open-source modules powering tens of thousands of enterprise deployments — owning architecture, code
             reviews, release engineering, and cross-team collaboration.
+          - Led large-scale Azure migrations for enterprise and public-sector customers, including a $150M
+            multi-application cloud migration for a county government and an AWS-to-Azure migration that enabled a
+            financial institution's Terraform Enterprise adoption.
           - Designed and built 10+ Azure Verified Modules adopted across hundreds of thousands of deployments and tens
             of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach.
           - Led Well-Architected Reliability Assessments (WARAs) and remediation engagements for enterprise customers,

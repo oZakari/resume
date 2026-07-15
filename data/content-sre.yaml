@@ -21,7 +21,8 @@ BasicInfo:
 
 Profile: >
   Site Reliability Engineer with 10+ years of experience improving the resiliency, availability, and operational
-  excellence of large-scale Azure production environments. Led dozens of Well-Architected Reliability Assessments
+  excellence of large-scale Azure production environments, including reliability oversight for large-scale customer
+  migrations to Azure across Infrastructure and Apps workloads. Led dozens of Well-Architected Reliability Assessments
   (WARAs) and remediation engagements for enterprise customers, translating findings into scalable, automated
   alerting and disaster recovery frameworks. Built threat models, disaster recovery plans, and zone-redundant
   architecture patterns adopted as reference implementations. Skilled in incident prevention, monitoring, and
@@ -60,7 +61,7 @@ Experience:
   - Employer: Microsoft
     Positions:
       - Title: Cloud Solution Architect – Tech Success (Apps and AI)
-        Date: Oct 2025 – Present
+        Date: Oct 2025 – Jul 2026
         Place: Austin, TX
         Details:
           - Serve as Directly Responsible Individual for Azure Monitoring, restoring product features to SLA and
@@ -78,6 +79,9 @@ Experience:
         Details:
           - Led multiple Well-Architected Reliability Assessments (WARAs) for enterprise customers across insurance,
             energy, and public-sector organizations, identifying high-impact resiliency gaps and driving remediation.
+          - Ensured resiliency and Well-Architected alignment throughout large-scale Azure migrations, including a
+            $150M multi-application cloud migration for a county government and an AWS-to-Azure migration for a
+            financial institution.
           - Delivered a WARA remediation engagement implementing service health alerts at scale and network-specific
             metric alerts using the AMBA framework.
           - Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling
