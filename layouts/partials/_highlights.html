@@ -9,11 +9,9 @@
             <div class="highlights__item">
                 <h3 class="highlights__header">{{ with .Icon }}<i class="{{ . }} highlights__icon"></i> {{ end }}{{ .Header | safeHTML
                     }}</h3>
-                <ul>
-                    {{ range .Details }}
-                    <li class="highlights__detail">{{ . | safeHTML }}</li>
-                    {{ end }}
-                </ul>
+                {{ range .Details }}
+                <p class="highlights__detail">{{ . | safeHTML }}</p>
+                {{ end }}
             </div>
             {{ end }}
         </div>

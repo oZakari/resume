@@ -58,11 +58,8 @@ body {
   }
 
   &__detail {
-    list-style-type: disc;
-  }
-
-  ul {
-    padding-left: 2rem;
+    margin: 0;
+    line-height: 1.7;
   }
 
   a {
@@ -600,19 +597,6 @@ body,
 .highlights__header {
   font-weight: 600;
   color: var(--cv-primary);
-  position: relative;
-  padding-left: 0.8rem;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.25em;
-    width: 4px;
-    height: 0.9em;
-    background: linear-gradient(180deg, var(--cv-primary), #2dd4a8);
-    border-radius: 2px;
-  }
 }
 
 .highlights__icon {
