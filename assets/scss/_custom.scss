@@ -44,7 +44,12 @@ body {
 
   &__right {
     width: 30rem;
-    padding: 1.5rem 2rem;  }
+    padding: 1.5rem 2rem;
+    position: relative;
+    float: right;
+    height: auto;
+    right: auto;
+  }
 
   &__full {
     clear: both;
