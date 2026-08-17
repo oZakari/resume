@@ -105,7 +105,7 @@ Experience:
           - Led consulting engagements designing and building distributed applications and cloud-native services.
           - Engineered CI/CD pipelines (Azure DevOps, Travis CI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
           - Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
-          - Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS, ECS); automated infrastructure provisioning with ARM and Terraform.
+          - Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS); automated infrastructure provisioning with ARM and Terraform.
           - Integrated static analysis (SonarQube), dynamic security scanning (OWASP ZAP), and dependency auditing (WhiteSource) into CI/CD pipelines.
           - Instrumented applications with APM/observability tools (New Relic, AppDynamics, App Insights, LogicMonitor) to identify bottlenecks and drive performance improvements.
           - Automated build, release, and environment provisioning workflows using PowerShell scripting.

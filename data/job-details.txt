@@ -1,0 +1,142 @@
+MICROSOFT
+
+Cloud Solution Architect – Tech Success (Apps and AI)
+Oct 2025 – Jul 2026 | Austin, TX
+- Owned Microsoft-side resolution for a Fortune 100 customer's GitHub Copilot-powered application and database modernization in an air-gapped, regulated environment — protecting a $600M data center exit — coordinating Product Groups, GitHub engineering, and executive stakeholders.
+- Unblocked a $1.3M opportunity for a major airline customer, escalated after a prior engagement stalled, coordinating across multiple product teams to drive resolution.
+- Led modernization of the AKS Secure Baseline landing zone in Bicep, implementing Entra Workload Identity, Azure CNI Overlay with Cilium, Key Vault CSI Driver, and a reusable multi-cluster namespace pattern.
+- Refactored the App Service Landing Zone onto AVM, updating App Service Plan, ASE, and Functions modules and building a new Managed Instance test case where none previously existed.
+- Built reusable Factory publication infrastructure (playbooks, runbooks, CI/CD) for modernization offerings, reducing time-to-publish for new offerings.
+- Served as Directly Responsible Individual (DRI) for Azure Monitoring (including the Azure Monitor Baseline Alerts framework), restoring product features to SLA, building a complete threat model, and delivering a Disaster Recovery Plan approved by the BCDR team; raised OpenSSF Scorecard security rating via Dependabot, CodeQL, SAST scanning, and hardened CI/CD runners.
+- Partnered with Microsoft product groups to influence platform readiness (GitHub Copilot BYOK, App Modernization tooling) through scenario-based testing and cross-team collaboration.
+- Sustained Azure Landing Zones (ALZ) and Azure Verified Modules (AVM) ownership — 10+ modules powering 435,000+ deployments across 8,400+ subscriptions — and executive-level customer advisory through a transition to engineering organization within Microsoft.
+- Built Mulesoft-to-APIM and Apigee-to-APIM modernization offerings — Bicep/Terraform IaC aligned to the APIM Landing Zone Accelerator and AVM — reusing shared infrastructure across offerings to accelerate time-to-publish.
+- Recognized as FY26 Value Acceleration IP Contributor (Silver) for reusable IP delivered through Factory and platform modernization offerings.
+
+Cloud Solution Architect – Tech Strategy (Infra)
+Oct 2022 – Oct 2025 | Austin, TX
+- Built and led the ALZ-Bicep AVM-based framework from the ground up, architecting a modular platform of 19 open-source modules deployed 33,000+ times across 560+ enterprise customers — owning architecture, code reviews, release engineering, and cross-team collaboration.
+- Led architecture and development of the Azure Proactive Resiliency Library (APRL), incorporation of CI/CD pipelines, standardizing metadata schemas, and designing an enterprise code-signing pipeline for PowerShell modules using Microsoft certificates; helped scale APRL into a company-wide customer offering delivered at scale as a fiscal-year priority.
+- Integrated zonal and multi-region resiliency support by default into the ALZ-Bicep Accelerator, enabling customers to deploy zone-redundant infrastructure without custom configuration.
+- Led large-scale Azure migrations for enterprise and public-sector customers, including a $150M multi-application cloud migration for a county government and an AWS-to-Azure migration that enabled a financial institution's Terraform Enterprise adoption.
+- Automated dependency, security, and quality gates (Dependabot, CodeQL, SAST, branch protection) across engineering repositories, raising OpenSSF Scorecard ratings.
+- Served as the primary technical escalation point for Microsoft's field CSAs across high-severity, cross-technology customer issues, unblocking millions of dollars in customer revenue by rapidly resolving complex challenges spanning infrastructure, code, and architecture.
+- Designed and built 14 Azure Verified Modules, and assisted with 10+ additional modules, collectively adopted across hundreds of thousands of deployments and tens of thousands of customers; recognized as Platinum Contributor, Community Champion, and Bicep Coach for sustained open-source contributions.
+- Partnered with Microsoft product groups to influence platform features (RBAC deny assignments, ARM What-If operator, Deployment Stacks) through scenario-based testing and code contributions — closing a governance gap that could have led to over-privileged access at enterprise scale.
+- Led Well-Architected Reliability Assessments and remediation engagements across enterprise and public-sector customers, driving adoption of resiliency patterns and earning consistently strong customer and leadership feedback.
+- Drove developer community enablement; managed a 3,850-member Teams channel, presented at community calls (90–120 attendees, 2,500+ views), delivered training sessions, and mentored 25+ engineers on software engineering and DevOps best practices.
+
+Customer Engineer
+Apr 2021 – Oct 2022 | Austin, TX
+- Subject matter expert for IaC (Bicep and Terraform), Azure IaaS/PaaS, Azure WAF – Reliability, and CI/CD with Azure DevOps and GitHub Actions.
+- Designed and implemented infrastructure solutions for customers, translating business requirements into scalable cloud architectures.
+- Delivered reliability risk assessments, hands-on workshops, and custom engineering engagements for enterprise customers.
+- Authored and shipped reusable engagement deliverables (MIPs) across multiple solution areas, accelerating customer onboarding.
+- Awarded 'MSUS Learning Superhero' for leading team effort that unblocked an $8.3M Azure competitive win against AWS.
+- Active member of team D&I group promoting Microsoft's mission to reduce inequalities, increase innovation, and accelerate organizational change.
+
+
+RBA, INC.
+
+DevOps Engineer
+Jun 2018 – Apr 2021 | Wayzata, MN
+- Led consulting engagements designing and building distributed applications and cloud-native services.
+- Engineered CI/CD pipelines (Azure DevOps, Travis CI) for .NET, .NET Core, and Java applications, automating build, test, and deployment workflows.
+- Architected high-availability, multi-region active-active environments with advanced release strategies (Blue-Green, canary).
+- Containerized workloads with Docker and orchestrated deployments on Kubernetes (AKS); automated infrastructure provisioning with ARM and Terraform.
+- Integrated static analysis (SonarQube), dynamic security scanning (OWASP ZAP), and dependency auditing (WhiteSource) into CI/CD pipelines.
+- Instrumented applications with APM/observability tools (New Relic, AppDynamics, App Insights, LogicMonitor) to identify bottlenecks and drive performance improvements.
+- Automated build, release, and environment provisioning workflows using PowerShell scripting.
+- Mentored developers and client teams on agile practices, performance troubleshooting, and DevOps culture.
+- Recognized with discretionary bonuses for consistently strong client and team feedback.
+
+Support Engineer
+Jun 2017 – Jun 2018 | Wayzata, MN
+- Engineered and managed multi-region, active-active Azure environments supporting mission-critical workloads across e-commerce, financial services, agriculture, and real estate industries.
+- Developed PowerShell automation scripts for configuration management; maintained SQL Server environments (mirroring, replication, maintenance jobs).
+- Debugged complex distributed systems, tracing production issues down to application code.
+- Led migration of 20+ web applications and databases from Azure IaaS to PaaS, reducing customer infrastructure costs.
+- Implemented observability solutions (Stackify, New Relic, SCOM) across Azure production environments.
+
+IT Analyst
+Jun 2016 – Jun 2017 | Wayzata, MN
+- Implemented TFS/Azure DevOps for CI/CD pipelines and upgraded internal TFS server.
+- Managed SharePoint 2013–2016/Online, including 50+ site collections, migrations, workflows, and full farm upgrades.
+- Automated patching, monitoring, and reporting workflows using Microsoft System Center (SCCM, SCOM, SCSM, Orchestrator).
+- Supported 70+ production servers across Hyper-V clusters, colocation, and on-prem environments.
+- Administered Office 365 tenant (Power BI, Dynamics CRM, O365 Admin/Security Center).
+- Provided tier 1–3 technical support for 120+ employees.
+
+
+MEDTRONIC
+
+Information Technology Intern
+Jun 2015 – Aug 2015 | Plymouth, MN
+- Monitored, logged, and escalated help desk tasks, ensuring proper prioritization.
+- Created documentation for devices and software processes.
+- Collaborated with tier III help desk, business analysts, and network engineers on projects.
+
+
+AWARDS
+
+FY26 Azure Verified Modules Contributor - Platinum
+Microsoft | Apr 2026
+- On many occasions, created, significantly updating new elements of documentation, automation, CI, tests, requirements and rules. OR
+- Contributed significantly to 3+ (more) complex modules under the admin ownership of someone else AND have been maintaining these continuously with rapid responses while improving them to be compliant with top priority WAF reliability and security recommendations. OR
+- Created 3+ (more) complex net new modules OR owner of 3+ complex modules with engineering/DRI sign-off AND have been maintaining these continuously with rapid responses. Modules are continuously improved to be made compliant with top priority WAF reliability and security recommendations. OR
+- Had a proven track record of continuously advocating for and presenting about AVM on public AND internal events/coaching, helping internal AND external contributors/creating publicly available training videos, etc. OR driving adoption internally AND externally.
+
+FY26 LevelUp Luminary
+Microsoft | Jan 2026
+- Luminaries are key contributors to the LevelUp Program, ensuring its relevance and success. By volunteering as workshop presenters, they invest time and talent to enhance their colleagues' skills. Luminaries are honored for their content creation, delivery skills, knowledge sharing, and leadership. This badge recognizes your support for skilling programs that drive business goals and customer success.
+
+FY26 Value Acceleration IP Contributor - Silver
+Microsoft | Dec 2025
+- Earners of this badge have demonstrated the ability to innovate, execute, maintain, and refine Value-Based Delivery solutions, making contributions to the overall success of the program.
+- Active IP contributor for at least one value-based deliverable after July 1, 2025.
+- Nominated and approved by the Solution Area, Value Acceleration Services team, and GDWP Tech Strategy team.
+
+FY25 Azure Verified Modules Contributor - Platinum
+Microsoft | Apr 2025
+- On many occasions, created, significantly updating new elements of documentation, automation, CI, tests, requirements and rules. OR
+- Contributed significantly to 3+ (more) complex modules under the admin ownership of someone else AND have been maintaining these continuously with rapid responses while improving them to be compliant with top priority WAF reliability and security recommendations. OR
+- Created 3+ (more) complex net new modules OR owner of 3+ complex modules with engineering/DRI sign-off AND have been maintaining these continuously with rapid responses. Modules are continuously improved to be made compliant with top priority WAF reliability and security recommendations. OR
+- Had a proven track record of continuously advocating for and presenting about AVM on public AND internal events/coaching, helping internal AND external contributors/creating publicly available training videos, etc. OR driving adoption internally AND externally.
+
+FY25 Azure Verified Modules Contributor - Gold
+Microsoft | Nov 2024
+- Azure Verified Modules (AVM) accelerates the delivery of cloud-native or migrated applications and their supporting infrastructure, reliably/consistently and at scale, by codifying Microsoft Azure Well-Architected Framework (WAF), with best practice configurations (Resiliency and Security by default).
+- On at least one occasion, creating, significantly updating new elements of documentation, automation, CI, tests, requirements and rules. OR
+- Contributed to 2-4 modules under the admin ownership of someone else OR have been maintaining these continuously while improving them to be compliant with top priority WAF reliability and security recommendations. OR
+- Created 2-4 net new modules OR took ownership over 2-4 existing modules AND have been maintaining these continuously with rapid responses. Modules are continuously improved to be made compliant with top priority WAF reliability and security recommendations. OR
+- On a couple of occasions, advocating for and presenting about AVM on public events/coaching, helping external contributors/creating publicly available training videos, etc. OR substantially facilitating adoption internally OR externally.
+
+Evangelist - Cloud Adoption Framework for Azure
+Microsoft | May 2024
+- Earners of the Cloud Adoption Framework Evangelist badge advocated for the use of the Cloud Adoption Framework through online and offline channels to drive broad scale awareness. They have elevated the framework as an industry standard for a successful cloud adoption journey.
+- You evangelize the Cloud Adoption Framework to external audiences in an online or offline platform at scale.
+
+Evangelist - Cloud Adoption Framework for Azure
+Microsoft | Feb 2024
+- Earners of the Cloud Adoption Framework Evangelist badge advocated for the use of the Cloud Adoption Framework through online and offline channels to drive broad scale awareness. They have elevated the framework as an industry standard for a successful cloud adoption journey.
+- You evangelize the Cloud Adoption Framework to external audiences in an online or offline platform at scale.
+
+Leader - Cloud Adoption Framework for Azure
+Microsoft | Aug 2023
+- Earners of the Cloud Adoption Framework Leader badge have a thorough understanding of the Cloud Adoption Framework for Azure. They have led their peers and partners worldwide in a collaborative effort to create the best guidance and tools for the public, internal Microsoft representatives, and Microsoft partners, thereby helping customers accelerate their cloud adoption journey.
+- You led a v-team that developed content for the Cloud Adoption Framework. Your name is assigned to a user story tracked in our DevOps backlog.
+
+Expert - Cloud Adoption Framework for Azure
+Microsoft | Jul 2023
+- Earners of the Cloud Adoption Framework Expert badge have proved their knowledge of cloud adoption by sharing and testing the guidance published in the framework with customers. Their ability to listen to and advocate for customers has helped ensure that the Cloud Adoption Framework reflects the reality customers face on their cloud journey.
+- You piloted Cloud Adoption Framework guidance, or provided program insights that met the pilot or program feedback criteria.
+
+Collaborator - Azure Architecture Center
+Microsoft | May 2023
+- Recipients of the Azure Architecture Center (AAC) Collaborator badge have demonstrated passion for Azure architecture, by collaborating with the content community to help improve the existing architectural guidance, patterns, and practices on the Microsoft Azure Architecture Center. Their contribution has improved the customer's experience in architecting solutions on Azure.
+- You helped improve 1 or more existing articles on the Azure Architecture Center, on docs.microsoft.com. This could include adding additional content, rebuilding architectural diagrams, or updating content to reflect the current state of the given technologies. You can also receive this badge if you are a member of a team who contributed an improvement, or if your contribution to an improvement is recognized by a v-team leader.
+
+Expert - Cloud Adoption Framework for Azure
+Microsoft | Apr 2023
+- Earners of the Cloud Adoption Framework Expert badge have proved their knowledge of cloud adoption by sharing and testing the guidance published in the framework with customers. Their ability to listen to and advocate for customers has helped ensure that the Cloud Adoption Framework reflects the reality customers face on their cloud journey.
+- You piloted Cloud Adoption Framework guidance, or provided program insights that met the pilot or program feedback criteria.
