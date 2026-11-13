@@ -748,7 +748,7 @@ body,
 // ── Print refinements ──────────────────────────────────────
 @media print {
   @page {
-    margin: 3rem 1.5rem 1rem 1.5rem;
+    margin: 4rem 1.5rem 1rem 1.5rem;
 
     @top-left {
       content: $print-header-name;
@@ -757,8 +757,8 @@ body,
       font-weight: 700;
       color: $color-primary;
       vertical-align: bottom;
-      padding-bottom: 0.3rem;
-      border-bottom: 2px solid $color-primary;
+      padding-bottom: 1.2rem;
+      background: linear-gradient($color-primary, $color-primary) left bottom 0.8rem / 100% 2px no-repeat;
     }
 
     @top-right {
@@ -769,8 +769,8 @@ body,
       color: $color-secondary;
       letter-spacing: 0.1rem;
       vertical-align: bottom;
-      padding-bottom: 0.3rem;
-      border-bottom: 2px solid $color-primary;
+      padding-bottom: 1.2rem;
+      background: linear-gradient($color-primary, $color-primary) left bottom 0.8rem / 100% 2px no-repeat;
     }
   }
 
@@ -796,6 +796,8 @@ body,
     width: 100%;
     height: auto;
     box-shadow: none !important;
+    border: 0;
+    border-image: none;
 
     &__left {
       float: left;
